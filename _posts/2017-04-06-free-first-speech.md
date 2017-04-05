@@ -1,7 +1,7 @@
 ---
     layout: post
     title: برای آزادی بیان و عقیده
-    feature-img: "img/first-post-feature-image.jpg"
+    feature-img: "img/feel-the-sun.jpg"
 ---
 به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم. 
 
