@@ -5,110 +5,83 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/</link>
     <description></description>
-    <pubDate>Wed, 05 Apr 2017 23:24:53 +0430</pubDate>
+    <pubDate>Wed, 13 Sep 2017 23:33:01 +0430</pubDate>
     
       <item>
-        <title>همیرا دنیای عشق</title>
-        <link>http://localhost:4000/2017/04/05/begin-of-the-blog.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/04/05/begin-of-the-blog.html</guid>
-        <description>&lt;p&gt;یکی از بهترین خوانندگان عصر قدیم ایران ، بانو حمیرا بود که با دنیای عشق غوغا کرده بود
-از بیشترین آثار او میشود به جاودانه و غیره اشاره کرد 
-بازی او در فیلم کامیک وارد دنیای هالیوود شد 
-فیلم های آمازیون و تازسماینی&lt;/p&gt;
+        <title>اگر آسان بود، پس همه می تواستند</title>
+        <link>http://localhost:4000/2017/04/24/it-is-not-easy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/24/it-is-not-easy.html</guid>
+        <description>&lt;p&gt;خیلی از مواقع که توی زندگی می خواین کاری انجام بدین، یه چیزی جلوتون رو میگیره. چیزی که خیلی خطرناکه. اسم آشنایی داره برای ما، منظورم ترس هست. ترس از خیلی چیزها. می خوایم ایده خودمون رو پیاده سازی کنیم می‌ترسیم. می‌خوایم دنبال علاقه‌ها و آرزوهامون بریم می‌ترسیم. می‌خوایم یه جایی بریم که خیلی زیبا و بکر هست اما می‌ترسیم. یکی از بزرگترین دشمنای ما ترس از حرکت هست. بهانه آوردن از انجام کار هست. ترس راه‌های مختلفی برای ورود به زندگی ما پیدا می‌کنه، بذارین در مورد یکی از اصلی‌ترین روش‌ها براتون بگم :&lt;/p&gt;
+
+&lt;h2 id=&quot;بهانه&quot;&gt;بهانه&lt;/h2&gt;
+&lt;p&gt;اولین موردی که به شدت مورد استقبال ما هست، بهانه هست. چیزی که از اون با نام‌های مختلفی یاد میشه: احتیاط، تعقل و خیلی چیزای دیگه که ما خودمون رو گول بزنیم و تنبلی کنیم و حرکتی انجام ندیم. از هر چیزی نقطه ضعف بگیریم و بهانه‌ای برای انجام ندادنش و یا حرکت کردن به سمتش گیر بیاریم. اما آخر کار خوب می‌فهمیم که چیکار کردیم، البته اگه زمانی برای نگاه به کار کردمون داشته باشیم و مشکل رو کشف کنیم.&lt;/p&gt;
+
+&lt;p&gt;حالا زمانی رو تصور کنین که فهمیدین مشکل کجا بود و فهمیدین که هنوز توش هستین یا دارین دوباره تکرارش می‌کنین، آیا حاضرین همین الان تغییر کنین؟ آره … سخته، اگه آسون بود که همه انجامش میدادن و مشکلی توی جهان نبود. اصلا آسون نیست، باید جدی بود و اجازه نداد که تنبلی و بهانه‌ها شما رو دوباره به اشتباه برگردونن.
+زمان ما برای زندگی محدود هست، حالا وقتی که چیزایی که بهمون گفتن بهتره رو انجام دادیم پس چه زمانی برای انجام اون کاری که همیشه می ‌خواستین انجام بدین پیدا می‌کنین. چه زمانی می‌خواین با آرزوهاتون زندگی کنین؟  باز می‌خواین بهانه بیاریم ؟ فرصتش رو نداشتم، شرایطش رو نداشتم؟ همین الان زمانی هست که وجود داره. زمانی نیست که به وجود خواهد آمد، مهم نیست که دیروز چه اتفاقی افتاد و چیکار کردیم، مهم اینه که از این به بعد چیکار می خوایم بکنیم، شاید آخرین فرصتمون باشه.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 05 Apr 2017 00:00:00 +0430</pubDate>
+        <pubDate>Mon, 24 Apr 2017 00:00:00 +0430</pubDate>
       </item>
     
       <item>
-        <title>Sample post</title>
-        <link>http://localhost:4000/2014/11/30/sample-post.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/11/30/sample-post.html</guid>
-        <description>&lt;p&gt;Consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
-  &lt;li&gt;Donec a diam lectus&lt;/li&gt;
-  &lt;li&gt;Sed sit amet ipsum mauris&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis. Curabitur dapibus enim sit amet elit pharetra tincidunt feugiat nisl imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros. Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.&lt;/p&gt;
-
-&lt;p&gt;Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula &lt;em&gt;semper consectetur sagittis&lt;/em&gt;, nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.&lt;/p&gt;
-
-&lt;p&gt;Ut dolor diam, elementum et vestibulum eu, porttitor vel elit. Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam tincidunt, purus velit laoreet tortor, viverra pretium nisi quam vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.&lt;/p&gt;
+        <title>آیا یونیتی واقعا ارزش ادامه داشت؟</title>
+        <link>http://localhost:4000/2017/04/10/is-unity-worth-it.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/10/is-unity-worth-it.html</guid>
+        <description>&lt;p&gt;به تازگی یعنی حدودا دو روز پیش خبر خاتمه دادن توسعه برنامه محیط میزکار یونیتی، از طرف تیم توسعه اوبونتو اعلام شد و خب از اونجایی که اوبونتو از اون توزیع‌های خوب و کامل لینوکس هست و بسیار هم محبوب و کاربردی هست، خیلی داغ شد.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Suspendisse lectus leo, consectetur in tempor sit amet, placerat quis neque&lt;/p&gt;
+  &lt;p&gt;مباحثی که در این پست بیان میشه، بیشتر بیان نظر شخصی بنده بوده و قصد ناراحتی طرفداران و کاربران هیچ برنامه‌ای رو ندارم&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Etiam luctus porttitor lorem, sed suscipit est rutrum non. Curabitur lobortis nisl a enim congue semper. Aenean commodo ultrices imperdiet. Vestibulum ut justo vel sapien venenatis tincidunt.&lt;/p&gt;
+&lt;p&gt;این سوال که آیا پروژه یونیتی واقعا ارزش ادامه داشت رو میشه از چندین وجه بررسی کرد و شاخصه‌های مختلفی داره که قصد دارم به صورت زیر این شاخص‌ها رو معرفی و بررسی کنم:&lt;/p&gt;
 
-&lt;p&gt;Phasellus eget dolor sit amet ipsum dapibus condimentum vitae quis lectus. Aliquam ut massa in turpis dapibus convallis. Praesent elit lacus, vestibulum at malesuada et, ornare et est. Ut augue nunc, sodales ut euismod non, adipiscing vitae orci. Mauris ut placerat justo. Mauris in ultricies enim. Quisque nec est eleifend nulla ultrices egestas quis ut quam. Donec sollicitudin lectus a mauris pulvinar id aliquam urna cursus. Cras quis ligula sem, vel elementum mi. Phasellus non ullamcorper urna.&lt;/p&gt;
+&lt;h2 id=&quot;محبوبیت&quot;&gt;محبوبیت&lt;/h2&gt;
+&lt;p&gt;یکی از مهمترین مسائلی که در موفقیت یک برنامه تاثیر داره، و نشان دهنده کاربرد موضوع هست، محبوبیت محصول نزد دیگران هست. به عنوان مثال کدوم توزیع دیگه‌ای وجود داره که از یونیتی برای پروژه خودش استفاده کرده به جز شروع کننده این پروژه، اوبونتو.
+بله، توزیع‌های نزدیک به آرچ و خود آرچ و غیره هم هستن که برای تفریح و بالا بردن امکانات و غیره، اقدام به کامپایلش کردن ولی بنده به شخصه جایی جز اوبونتو پیشفرض جای دیگه‌ای کمتر دیدم استفاده بشه&lt;/p&gt;
+
+&lt;h2 id=&quot;امکانات-پیشفرض&quot;&gt;امکانات پیشفرض&lt;/h2&gt;
+&lt;p&gt;بنده محیط‌های میزکار مختلفی رو امتحان کردم و بعد از مدتی که دوباره وارد اوبونتو شدم به یکباره متعجب شدم که این میزکار حال به هر دلیلی که اسمش رو میذارین، به خاطر سبکی یا هر چیزی، امکانات پیشفرض به نسبت کمتری داره که از شاخص‌ترین اونها میشه به Gnome Tweak tools اشاره کرد.
+یعنی شما توی مرکز کنترل خود یونیتی کار خاصی برای دسکتاپ نمی‌تونی بکنی و باید برای کارهای پیشرفته‌تر برید و یه ابزار دیگه نصب کنین. اینجا یک سری افراد هستن که میگن:‌ خب این طراحی به خاطر جامعه هدف این دسکتاپ که کاربرای ساده و تازه ‌کار هست انجام شده. اینجا باید بگم که این یک نقصان در طراحی هست که کاربر تازه کار رو گیج می کنه و نیازمند به مطالعه و جستجوی خارج از محیط. درصورتی که این چیز ساده توی میزکار گنوم به هیچ وجه دیده نمیشه.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/migim/migim.github.io/master/img/unity-desktop-icon.png&quot; alt=&quot;unity ubuntu DE icon&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;از-موارد-خوب&quot;&gt;از موارد خوب&lt;/h2&gt;
+&lt;p&gt;یک موردی از میزکار یونیتی که به نظرم جالب بود قابلیتی بود که به میزکار این امکان رو میداد تا در حالت Maximize، دکمه های close, Minimize و غیره به انتها علیه Task bar رفته و حداکثر استفاده رو از صفحه بشه برد که چنین حالتی به صورت پیشفرض بنده روی میزکار گنوم ندیدم و کاربرد بسیار خوبی هم داره.
+این از اون مواردی بود که به ارزش این پروژه و کاربردش اضافه می کنه اما چه کنیم که محدود هستن.&lt;/p&gt;
+
+&lt;h2 id=&quot;نتیجهگیری&quot;&gt;نتیجه‌گیری&lt;/h2&gt;
+&lt;p&gt;به هر صورت موارد قابل بیان و فنی بسیار هست و دانش بنده هم در حدودای چنین است که عرض کردم  و از دیدگاه یک کاربر محصولات متن‌باز به این نتیجه رسیدم که یونیتی با این محبوبیت کم و طراحی ضعیف از منظر کاربرد، تنها هزینه‌بر و فرسایشی ادامه پیدا می‌کرد و این تصمیم شرکت کنونیکال نشان‌دهنده حرفه‌ای بودن این افراد است تا بتونیم با تمرکز برای یک میزکار فوق‌العاده و توسعه هر چه بهتر اون، دنیای آزاد بهتری رو تجربه کنیم.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 30 Nov 2014 00:00:00 +0330</pubDate>
+        <pubDate>Mon, 10 Apr 2017 00:00:00 +0430</pubDate>
       </item>
     
       <item>
-        <title>Feature images</title>
-        <link>http://localhost:4000/2014/11/29/feature-images.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/11/29/feature-images.html</guid>
-        <description>&lt;p&gt;This is an example of a post which includes a feature image specified in the front matter of the post. The feature image spans the full-width of the page, and is shown with the title on permalink pages.&lt;/p&gt;
+        <title>برای آزادی بیان و عقیده</title>
+        <link>http://localhost:4000/2017/04/06/free-first-speech.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/06/free-first-speech.html</guid>
+        <description>&lt;p&gt;به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم.&lt;/p&gt;
+
+&lt;h3 id=&quot;چرا-میگیم&quot;&gt;چرا میگیم؟&lt;/h3&gt;
+
+&lt;p&gt;خب،‌ واقعیت این بود که بنده حدود سه سال پیش قصد داشتم یک دامین‌ای ثبت کنم و نمی‌دونستم چه باید کرد. با خودم گفتم که اسم‌های مختلف رو دسته‌بندی کنم و به ترتیب بنویس و تک‌تک امتحان کنم. اون لیست به خاطره‌ها پیوست اما توی یکی از اولین امتحان‌هایی که جواب داد این دامین ثبت نشده بود. خیلی با خودم کلنجار رفتم که آخه این چه اسمیه و یعنی چه، به هر صورت ثبت کردم و خوشم اومد. خب اسم تکی بود. اسم سایت و دامنه اون مهمه که همسان باشن و منظور هم رو برسونن و باعث بشن که بازدیدکننده سریع و راحت یادش بمونه این اسم، اما شما باید یک هدفی از ثبت و کار روی سایت داشته باشین تا این اسم ارزش پیدا کنه.
+از فعالیت‌های دوران ابتدای دانشگاه من این سایت بود که با وردپرس فارسی روی یکی از هاست‌های داخلی بالا آوردمش. خب هر چیزی توش می‌نوشتم و استفاده های مختلف برام داشت.&lt;/p&gt;
+
+&lt;p&gt;ولی حالا اینجا تبدیل شده به وبلاگی با عنوان میگیم،‌ در ابتدا ادامه عنوان این بود :&lt;/p&gt;
+
+&lt;h4 id=&quot;میگیم-برای-آزادی-بیان-و-عقیده&quot;&gt;میگیم برای آزادی بیان و عقیده&lt;/h4&gt;
+
+&lt;p&gt;خب راستش خیلی دهن پر کن هست، با کلی فکر و خیال دیدم که نه. این مصداق اون طبلی بود که روباهه ازش میترسید. 
+چرا که واقعیت این هست که بنده یه آزادی‌خواه نیستم و این یک شعار فقط دهن پر کن هست و هدف بنده رو از بالا آوردن دوباره این سایت،‌ ضایع می کنه. پس سعی کردم واقعی‌تر باشه.&lt;/p&gt;
+
+&lt;h3 id=&quot;ولی-حالا-چرا-میگیم&quot;&gt;ولی حالا،‌ چرا میگیم؟&lt;/h3&gt;
+
+&lt;p&gt;دلیل اصلی این که می خوام از تفکرات و عقاید و علاقه‌هام بگم این هست که باعث میشه بیشتر تحقیق کنم، بیشتر با افراد علاقه‌مند به عرصه کامپیوتر و برنامه‌نویسی در ارتباط باشم و در یک کلام بر این باورم که علم همواره برای همگان آزاد هست و باید با هم پیشرفت کرد.&lt;/p&gt;
+
+&lt;h3 id=&quot;مشکلات-کجاهاست&quot;&gt;مشکلات کجاهاست؟&lt;/h3&gt;
+
+&lt;p&gt;یکی از بزرگترین مشکلاتی که الان سایت داره اینه که سیستم کامنت‌گذاری سایت فعال نیست چرا که یکی از مهمترین سایت‌های فراهم آورنده این سیستم که disqus باشد،‌ به دلایل مختلف از جمله محتوای مجرمانه برای ما دستگیر و فیلتر شده .
+در همین راستا بنده روش‌های مختلفی رو امتحان کردم و در آخر عرض می‌کنم که باید خودم این بخش رو بنویسم و امکانات مناسبی تا به کنون پیدا نکردم.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 29 Nov 2014 00:00:00 +0330</pubDate>
-      </item>
-    
-      <item>
-        <title>Markdown and HTML</title>
-        <link>http://localhost:4000/2014/11/28/markdown-and-html.html</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/11/28/markdown-and-html.html</guid>
-        <description>&lt;p&gt;Jekyll supports the use of &lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot;&gt;Markdown&lt;/a&gt; with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.&lt;/p&gt;
-
-&lt;p&gt;Tables have also been extended from Markdown:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;First Header&lt;/th&gt;
-      &lt;th&gt;Second Header&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-      &lt;td&gt;Content Cell&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Here’s an example of an image, which is included using Markdown:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/sample_feature_img_2.png&quot; alt=&quot;Geometric pattern with fading gradient&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Rouge by default.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// count to ten&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;// count to twenty&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;while&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Type Theme uses KaTeX to display maths. Equations such as &lt;script type=&quot;math/tex&quot;&gt;S_n = a \times \frac{1-r^n}{1-r}&lt;/script&gt; can be displayed inline.&lt;/p&gt;
-
-&lt;p&gt;Alternatively, they can be shown on a new line:&lt;/p&gt;
-
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;f(x) = \int \frac{2x^2+4x+6}{x-2}&lt;/script&gt;
-</description>
-        <pubDate>Fri, 28 Nov 2014 00:00:00 +0330</pubDate>
+        <pubDate>Thu, 06 Apr 2017 00:00:00 +0430</pubDate>
       </item>
     
   </channel>
