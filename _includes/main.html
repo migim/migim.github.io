@@ -1,0 +1,72 @@
+<nav id="nav-up">
+
+    <section id="nav-up-right">
+        
+        
+        
+    </section>
+
+    <section id="nav-up-left">
+
+    </section>
+
+</nav>
+
+<div id="cover">
+    <section id="site-title"><a href="{{ site.url }}">میگیم</a></section>
+    <section id="site-description">به وسعت آسمان و با آرامش طبیعت</section>
+</div>
+
+<nav id="nav-down">
+
+    <section id="nav-down-right">
+
+    </section>
+
+    <section id="nav-down-left">
+
+    </section>
+
+</nav>
+
+
+
+<div id="main-bar">
+
+    {% for post in site.posts %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="date">
+        <i class="fa fa-clock-o"></i>
+        <script>
+            moment.loadPersian();
+            var date = moment('{{ post.date }}', 'YYYY-M-D').format('jD jMMMM jYY');
+            document.write(date);
+
+        </script>
+    </div>
+    <br> {{ post.excerpt }} <br> {% endfor %}
+
+</div>
+<div id="side-bar">
+    <div id="avatar"></div>
+    <section id="bio-header">
+        <h1>محمدرضا مقیمی</h1>
+    </section>
+    <section id="bio-des-one">
+        <h2><i class="fa fa-address-card"> طراح و توسعه‌دهنده نرم‌افزار</i></h2>
+    </section>
+    <section id="aka"><i class="fa fa-user-circle"></i> mimr9</section>
+
+</div>
+<div id="icon-bar">
+    <a class="tooltip" href="http://github.com/{{ site.data.author.github }}/"><i class="fa fa-github"><div class="tooltiptext">پروژه‌های من در گیتهاب</div></i></a>
+    <a class="tooltip" href="http://linkedin.com/in/{{ site.data.author.linkedin }}/"><i class="fa fa-linkedin-square" ><div class="tooltiptext">رزومه من در لینکدین</div></i></a>
+    <a class="tooltip" href="http://flickr.com/photos/{{ site.data.author.flickr }}/"><i class="fa fa-flickr" ><div class="tooltiptext">عکس‌های من در فلیکر</div></i></a>
+    <a class="tooltip" href="http://stackoverflow.com/users/{{ site.data.author.stackoverflow }}/"><i class="fa fa-stack-overflow" ><div class="tooltiptext">پرسش و پاسخ‌های من در استک‌اورفلو</div> </i></a>
+    <a class="tooltip" href="http://codepen.io/{{ site.data.author.codepen }}"><i class="fa fa-codepen" ><div class="tooltiptext">کارهای من در سایت کدپن</div></i></a>
+    <a class="tooltip" href="http://gitlab.com/{{ site.data.author.gitlab }}/"><i class="fa fa-gitlab" ><div class="tooltiptext">پروفایل من در گیت‌لب</div></i></a>
+    <a class="tooltip" href="http://twitter.com/{{ site.data.author.twitter }}"><i class="fa fa-twitter-square" ><div class="tooltiptext"> توییت‌های من در توییتر </div></i></a>
+    <a class="tooltip" href="https://addons.mozilla.org/en-US/firefox/user/{{ site.data.author.firefox }}/"><i class="fa fa-firefox" ><div class="tooltiptext">پروفایل موزیلا من اگه از فایرفاکس استفاده می‌کنین</div></i></a>
+    <a class="tooltip" href="mailto:{{ site.data.author.email }}" target="_top"><i class="fa fa-envelope-open" ><div class="tooltiptext">ایمیل من</div></i></a>
+    <a class="tooltip" href="bitcoin:{{ site.data.author.bitcoin }}"><i class="fa fa-btc" ><div class="tooltiptext">آدرس حساب بیتکوین من</div></i></a>
+</div>

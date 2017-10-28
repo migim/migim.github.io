@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html dir=rtl lang="fa">
+
+    <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+    <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+    <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+    
+	<head>
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="/assets/style/main.css">
+<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/public/css/gpgc_styles.css">
+  
+<link rel="shortcut icon" href="/assets/img/favicon.ico" >
+<title> میگیم دیدگاهی متفاوت </title>
+
+<script src="/assets/script/jquery-3.2.1.min.js"></script>
+<script src="/assets/script/moment.min.js"></script>
+<script src="/assets/script/moment-jalali.js"></script>
+
+	</head>
+	<body>
+		
+    <nav id="nav-up">
+
+    <section id="nav-up-right">
+        
+    </section>
+    
+    <section id="nav-up-left">
+        
+    </section>
+
+</nav>
+
+<div id="cover">
+    <section id="site-title"><a href="http://localhost:4000" >میگیم</a></section>
+    <section id="site-description">اگر برنامه‌نویس نیستید <i class="fa fa-comments-o" aria-hidden="true"></i> اینجا چیزی نگید <i class="fa fa-blind" aria-hidden="true"></i></section>
+</div>
+
+<nav id="nav-down">
+    
+    <section id="nav-down-right">
+        
+    </section>
+    
+    <section id="nav-down-left">
+        
+    </section>
+
+</nav>
+
+<div id="main-bar">
+
+	<h1><a href="/about">درباره من</a></h1>
+    <div class="date">
+        <i class="fa fa-clock-o"></i>
+        <script>
+            moment.loadPersian();
+            var date = moment('2017-10-28', 'YYYY-M-D').format('jD jMMMM jYY');
+            document.write(date);
+
+        </script>
+    </div>
+    <br>
+    <p></p>
+
+
+    <div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_all_comments">
+</div>
+
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_no_comments">
+  <p class="gpgc-centered-text">No comments</p>
+</div>
+
+<div class="gpgc-actions gpgc-hidden gpgc-color-theme" id="gpgc_actions">
+  <span class="gpgc-action gpgc-centered-text">
+    <button class="gpgc-large-secondary-button" id="show_comments_button" onclick="showAllComments(CommentsArray)"></button>
+  </span>
+</div>
+
+<div class="gpgc-comment gpgc-comments-font gpgc-color-theme" id="gpgc_new_comment">
+  <div class="gpgc-comment-header">
+    <a id="gpgc_reader_url" href="https://github.com/wireddown/ghpages-ghcomments"><img class="gpgc-avatar" id="gpgc_reader_avatar" src="https://raw.githubusercontent.com/wireddown/ghpages-ghcomments/gh-pages/public/apple-touch-icon-precomposed.png" height="42" /><span id="gpgc_reader_login">You</span></a>
+    <small>today</small>
+    <div class="gpgc-tabs">
+      <button class="gpgc-tab gpgc-text-button" id="write_button">Write</button>
+      <button class="gpgc-tab gpgc-text-button" id="preview_button">Preview</button>
+    </div>
+  </div>
+  <div class="gpgc-new-comment" id="write_div">
+    <div class="gpgc-new-comment-form">
+      <textarea class="gpgc-new-comment-form-textarea" id="new_comment_field" placeholder="Write a comment"></textarea>
+    </div>
+  </div>
+  <div class="gpgc-new-comment gpgc-comment-contents gpgc-hidden" id="preview_div">
+  </div>
+  <div class="gpgc-hidden gpgc-comment-help" id="help_message">
+  </div>
+  <div class="gpgc-new-comment-actions">
+    <button class="gpgc-normal-primary-button gpgc-text-button" id="login_button" onclick="loginToGitHub()"><strong>Login to GitHub</strong></button>
+    <button class="gpgc-normal-primary-button gpgc-text-button gpgc-hidden" id="submit_button" onclick="postComment()"><strong>Submit</strong></button>
+  </div>
+</div>
+
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_disabled">
+  <p class="gpgc-centered-text">Comments are closed</p>
+</div>
+
+<div class="gpgc-new-section gpgc-comments-font gpgc-help-error gpgc-hidden" id="gpgc_reader_error">
+</div>
+
+<div class="gpgc_last_div">
+</div>
+
+<script type="text/javascript" src="/public/js/gpgc_core.js"></script>
+
+<script>
+  window.addEventListener("error", onError);
+  function onError(error) {
+    var errorMessage = "<h3><strong>gpgc</strong> Error: Global Exception</h3>";
+    errorMessage += "<p><dl><dt>Error</dt><dd>" + error.message + "</dd><dt>URL</dt><dd>" + error.filename + "</dd><dt>Line</dt><dd>" + error.lineno + "</dd><dt>Column</dt><dd>" + error.colno + "</dd></dl></p>"
+    showGeneralHelp(errorMessage);
+  }
+</script>
+
+<script>
+  var gpgc = {
+    new_comments_disabled: new Boolean(false).valueOf() || new Boolean().valueOf(),
+    site_url: "http://localhost:4000",
+    page_path: "about.md",
+    issue_title: "درباره من",
+    repo_id: "migim/migim.github.io",
+    use_show_action: false,
+    github_application_client_id: "917f9a59de9bb6fdeb97",
+    github_application_code_authenticator_url: "https://neomigim.herokuapp.com/authenticate/",
+    github_application_login_redirect_url: "http://neomigim.herokuapp.com/public/html/gpgc_redirect/index.html",
+    enable_diagnostics: true,
+  };
+
+  gpgc_main();
+</script>
+
+
+</div>
+    <div id="side-bar">
+        <div id="avatar"></div>
+        <section id="bio-header"><h1>محمدرضا مقیمی</h1></section>
+        <section id="bio-des-one"><h2><i class="fa fa-address-card"> طراح و توسعه‌دهنده نرم‌افزار</i></h2></section>
+        <section id="aka"><i class="fa fa-user-circle"></i> mimr9</section>
+
+    </div>
+    <div id="icon-bar">
+        <a href="http://github.com/mimr9/"><i class="fa fa-github"></i></a>
+        <a href="http://linkedin.com/in/mohammadreza-moghimi/"><i class="fa fa-linkedin-square" ></i></a>
+        <a href="http://flickr.com/photos/144451464@N04/"><i class="fa fa-flickr" ></i></a>
+        <a href="http://stackoverflow.com/users/5532744/mimr-moghimi/"><i class="fa fa-stack-overflow" ></i></a>
+        <a href="http://codepen.io/mimr9"><i class="fa fa-codepen" ></i></a>
+        <a href="http://gitlab.com/mimr9/"><i class="fa fa-gitlab" ></i></a>
+        <a href="http://twitter.com/javanevis"><i class="fa fa-twitter-square" ></i></a>
+        <a href="https://addons.mozilla.org/en-US/firefox/user/mimr9/"><i class="fa fa-firefox" ></i></a>
+        <a href="mailto:mimr.moghimi@gmail.com" target="_top"><i class="fa fa-envelope-open" ></i></a>
+        <a href="bitcoin:1AJUPMTt5TJF4KuwQzQV4gqiyLF2XsaCMp"><i class="fa fa-btc" ></i></a>
+    </div>
+
+	</body>
+	<footer id="footer">
+		<script src="/assets/script/script.js"></script>
+	</footer>
+
+</html>
+
+
+

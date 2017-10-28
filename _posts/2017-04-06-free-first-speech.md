@@ -1,5 +1,5 @@
 ---
-    layout: post
+    layout: post 
     title: برای آزادی بیان و عقیده
     feature-img: "img/feel-the-sun.jpg"
 ---

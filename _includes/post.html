@@ -1,0 +1,68 @@
+
+    <nav id="nav-up">
+
+    <section id="nav-up-right">
+        
+    </section>
+    
+    <section id="nav-up-left">
+        
+    </section>
+
+</nav>
+
+<div id="cover">
+    <section id="site-title"><a href="{{ site.url }}" >میگیم</a></section>
+    <section id="site-description">اگر برنامه‌نویس نیستید <i class="fa fa-comments-o" aria-hidden="true"></i> اینجا چیزی نگید <i class="fa fa-blind" aria-hidden="true"></i></section>
+</div>
+
+<nav id="nav-down">
+    
+    <section id="nav-down-right">
+        
+    </section>
+    
+    <section id="nav-down-left">
+        
+    </section>
+
+</nav>
+
+<div id="main-bar">
+
+	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    <div class="date">
+        <i class="fa fa-clock-o"></i>
+        <script>
+            moment.loadPersian();
+            var date = moment('{{ page.date }}', 'YYYY-M-D').format('jD jMMMM jYY');
+            document.write(date);
+
+        </script>
+    </div>
+    <br>
+    <p>{{ page.content }}</p>
+
+
+    {% include gpgc_comments.html post_title=page.title %}
+
+</div>
+    <div id="side-bar">
+        <div id="avatar"></div>
+        <section id="bio-header"><h1>محمدرضا مقیمی</h1></section>
+        <section id="bio-des-one"><h2><i class="fa fa-address-card"> طراح و توسعه‌دهنده نرم‌افزار</i></h2></section>
+        <section id="aka"><i class="fa fa-user-circle"></i> mimr9</section>
+
+    </div>
+    <div id="icon-bar">
+        <a href="http://github.com/{{ site.data.author.github }}/"><i class="fa fa-github"></i></a>
+        <a href="http://linkedin.com/in/{{ site.data.author.linkedin }}/"><i class="fa fa-linkedin-square" ></i></a>
+        <a href="http://flickr.com/photos/{{ site.data.author.flickr }}/"><i class="fa fa-flickr" ></i></a>
+        <a href="http://stackoverflow.com/users/{{ site.data.author.stackoverflow }}/"><i class="fa fa-stack-overflow" ></i></a>
+        <a href="http://codepen.io/{{ site.data.author.codepen }}"><i class="fa fa-codepen" ></i></a>
+        <a href="http://gitlab.com/{{ site.data.author.gitlab }}/"><i class="fa fa-gitlab" ></i></a>
+        <a href="http://twitter.com/{{ site.data.author.twitter }}"><i class="fa fa-twitter-square" ></i></a>
+        <a href="https://addons.mozilla.org/en-US/firefox/user/{{ site.data.author.firefox }}/"><i class="fa fa-firefox" ></i></a>
+        <a href="mailto:{{ site.data.author.email }}" target="_top"><i class="fa fa-envelope-open" ></i></a>
+        <a href="bitcoin:{{ site.data.author.bitcoin }}"><i class="fa fa-btc" ></i></a>
+    </div>
