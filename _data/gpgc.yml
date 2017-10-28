@@ -7,5 +7,5 @@ label_color: 666666
 github_application:
   client_id: 917f9a59de9bb6fdeb97 
   code_authenticator: http://neomigim.herokuapp.com/authenticate/
-  callback_url: http://migim.ir/public/html/gpgc_redirect/index.html
+  callback_url: http://migim.ir/public/html/gpgc_redirect.html
 enable_diagnostics: false 
