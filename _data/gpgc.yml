@@ -6,6 +6,6 @@ label_name: Post Comments
 label_color: 666666
 github_application:
   client_id: 917f9a59de9bb6fdeb97 
-  code_authenticator: https://neomigim.herokuapp.com/authenticate/
+  code_authenticator: http://neomigim.herokuapp.com/public/html/gpgc_redirect/index.html 
   callback_url: http://neomigim.herokuapp.com/public/html/gpgc_redirect/index.html
 enable_diagnostics: true        
