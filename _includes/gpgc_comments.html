@@ -1,22 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @mimr9
- Sign out
- Watch 1
-  Star 1  Fork 1,646 wireddown/wireddown.github.io
-forked from poole/lanyon
- Code  Issues 2  Pull requests 0  Projects 0  Insights
-Branch: master Find file Copy pathwireddown.github.io/_includes/gpgc_comments.html
-212782b  on Aug 11, 2015
-@wireddown wireddown Update from ghpages-ghcomments
-1 contributor
-RawBlameHistory    
-61 lines (52 sloc)  2.75 KB
 <div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_all_comments">
 </div>
 
@@ -54,6 +35,10 @@ RawBlameHistory
   </div>
 </div>
 
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_disabled">
+  <p class="gpgc-centered-text">Comments are closed</p>
+</div>
+
 <div class="gpgc-new-section gpgc-comments-font gpgc-help-error gpgc-hidden" id="gpgc_reader_error">
 </div>
 
@@ -63,7 +48,17 @@ RawBlameHistory
 <script type="text/javascript" src="{{ site.baseurl }}/public/js/gpgc_core.js"></script>
 
 <script>
+  window.addEventListener("error", onError);
+  function onError(error) {
+    var errorMessage = "<h3><strong>gpgc</strong> Error: Global Exception</h3>";
+    errorMessage += "<p><dl><dt>Error</dt><dd>" + error.message + "</dd><dt>URL</dt><dd>" + error.filename + "</dd><dt>Line</dt><dd>" + error.lineno + "</dd><dt>Column</dt><dd>" + error.colno + "</dd></dl></p>"
+    showGeneralHelp(errorMessage);
+  }
+</script>
+
+<script>
   var gpgc = {
+    new_comments_disabled: new Boolean({{ site.data.gpgc.disabled }}).valueOf() || new Boolean({{ page.gpgc_disabled }}).valueOf(),
     site_url: "{{ site.url }}",
     page_path: "{{ page.path }}",
     issue_title: "{{ include.post_title }}",
@@ -74,17 +69,7 @@ RawBlameHistory
     github_application_login_redirect_url: "{{ site.data.gpgc.github_application.callback_url }}",
     enable_diagnostics: {{ site.data.gpgc.enable_diagnostics }},
   };
+
   gpgc_main();
 </script>
-© 2017 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
+
