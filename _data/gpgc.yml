@@ -1,6 +1,6 @@
 repo_owner: migim 
 repo_name: migim.github.io 
-disabled: false
+disabled: true 
 use_show_action: false
 label_name: Post Comments
 label_color: 666666
