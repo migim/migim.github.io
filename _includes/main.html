@@ -2,8 +2,8 @@
 
     <section id="nav-up-right">
         
-        {% for link in site.data.navigator %}
-            <div class="nav-up-items"><a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a></div>
+        {% for link in site.data.author %}
+            <div class="nav-up-items"><a href="{{ site.url }}{{ link.url }}">{{ link.name }}</a></div>
         {% endfor %}
         
     </section>
