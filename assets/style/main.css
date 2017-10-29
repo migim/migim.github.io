@@ -227,12 +227,11 @@ body h1 a {
 
 .nav-up-items {
     margin: auto 7px;
-    
+    display: inline;
 }
 
 .nav-up-items a {
     text-decoration: none;
-    display: inline;
 }
 
 /* Tooltip for hover icons */
