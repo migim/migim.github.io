@@ -1,5 +1,7 @@
 #site pages
 
-title: درباره من
+- title: درباره من
 url: /about
 
+- title: تماس با من
+url: /contact-me
