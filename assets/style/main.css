@@ -119,6 +119,7 @@ body h1 a {
     height: 100%;
     position: relative;
     bottom: 0;
+    z-index: 0;
 }
 
 #footer {
@@ -218,6 +219,10 @@ body h1 a {
     color: rgba(0, 70, 0, 0.6);
     margin-right: 3%;
     margin-top: -10px;
+}
+
+.persianstat {
+	z-index: -2;
 }
 
 /* Tooltip for hover icons */
