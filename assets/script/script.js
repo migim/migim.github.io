@@ -26,5 +26,4 @@ $(window).on("load", function () {
 });
 
 $('#icon-bar a').attr('target', '_blank');
-
-$('.persianstat'
+$('.persianstat img').hide();
