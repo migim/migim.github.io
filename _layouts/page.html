@@ -1,5 +1,22 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html dir=rtl lang="fa">
 
-{{ content }}
+    <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+    <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+    <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+    
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		{% include page.html %}
+	</body>
+	<footer id="footer">
+		{% include footer.html %}
+	</footer>
+
+</html>
+
+
+
