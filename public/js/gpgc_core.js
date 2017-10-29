@@ -167,7 +167,7 @@ function authenticateUser() {
     );
   } else if (AccessToken.length === 0) {
     onAuthenticateUserFailed();
-    showCommentHelpMessage("To leave a comment, please login to GitHub.");
+    showCommentHelpMessage("برای ثبت نظر، لطفا وارد حساب گیت‌هاب خود شوید");
   } else {
     onAuthenticateUserFailed();
     showFatalError("An OAuth token must be 40 characters long, this one is " + AccessToken.length + " long.");
@@ -206,9 +206,9 @@ function onAuthenticateUserFailed() {
   var elementsToDisable = [ SubmitButton ];
   updateElements(elementsToShow, elementsToHide, elementsToEnable, elementsToDisable);
   updateCommenterInformation({
-    login: "You",
-    html_url: "https://github.com/wireddown/ghpages-ghcomments",
-    avatar_url: "https://raw.githubusercontent.com/wireddown/ghpages-ghcomments/gh-pages/public/apple-touch-icon-precomposed.png"
+    login: "شما",
+    html_url: "https://github.com/migim",
+    avatar_url: "https://avatars1.githubusercontent.com/u/8096902?v=4"
   });
 }
 
@@ -239,7 +239,7 @@ function loginToGitHub() {
 function handleLogin(code) {
   disableElement(LoginButton);
   clearCommentHelp();
-  showCommentHelpMessage("<em>Finishing login...<em>");
+  showCommentHelpMessage("<em>در حال وارد شدن ...<em>");
   getTokenUsingCode(code);
 }
 

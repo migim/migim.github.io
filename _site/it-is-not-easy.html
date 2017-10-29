@@ -22,9 +22,19 @@
 <script src="/assets/script/moment.min.js"></script>
 <script src="/assets/script/moment-jalali.js"></script>
 
+<style>
+
+    #icon-bar a:hover {
+        background-color: #eee;
+        color: #000;
+        transition: all 300ms;
+    }
+
+</style>
+
 	</head>
 	<body>
-		<nav id="nav-up">
+		<nav id="nav-up" style="background-color: #black;">
 
     <section id="nav-up-right">
         <div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
@@ -37,12 +47,12 @@
 
 </nav>
 
-<div id="cover">
+<div id="cover" style="background-image: url('/assets/img/mimr-grub.jpg')">
     <section id="site-title"><a href="http://localhost:4000">میگیم</a></section>
     <section id="site-description">اگر برنامه‌نویس نیستید <i class="fa fa-comments-o" aria-hidden="true"></i> اینجا چیزی نگید <i class="fa fa-blind" aria-hidden="true"></i></section>
 </div>
 
-<nav id="nav-down">
+<nav id="nav-down" style="background-color: #000">
 
     <section id="nav-down-right">
 
@@ -82,7 +92,7 @@
 </div>
 
 <div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_no_comments">
-  <p class="gpgc-centered-text">No comments</p>
+  <p class="gpgc-centered-text">هنوز نظری ثبت نشد</p>
 </div>
 
 <div class="gpgc-actions gpgc-hidden gpgc-color-theme" id="gpgc_actions">
@@ -93,16 +103,16 @@
 
 <div class="gpgc-comment gpgc-comments-font gpgc-color-theme" id="gpgc_new_comment">
   <div class="gpgc-comment-header">
-    <a id="gpgc_reader_url" href=""><img class="gpgc-avatar" id="gpgc_reader_avatar" src="" height="42" /><span id="gpgc_reader_login">You</span></a>
-    <small>today</small>
+    <a id="gpgc_reader_url" href=""><img class="gpgc-avatar" id="gpgc_reader_avatar" src="" height="42" /><span id="gpgc_reader_login">شما</span></a>
+    <small>امروز</small>
     <div class="gpgc-tabs">
-      <button class="gpgc-tab gpgc-text-button" id="write_button">Write</button>
-      <button class="gpgc-tab gpgc-text-button" id="preview_button">Preview</button>
+      <button class="gpgc-tab gpgc-text-button" id="write_button">نوشتن</button>
+      <button class="gpgc-tab gpgc-text-button" id="preview_button">پیش‌نمایش</button>
     </div>
   </div>
   <div class="gpgc-new-comment" id="write_div">
     <div class="gpgc-new-comment-form">
-      <textarea class="gpgc-new-comment-form-textarea" id="new_comment_field" placeholder="Write a comment"></textarea>
+      <textarea class="gpgc-new-comment-form-textarea" id="new_comment_field" placeholder="نظر خود را اینجا بنویسید"></textarea>
     </div>
   </div>
   <div class="gpgc-new-comment gpgc-comment-contents gpgc-hidden" id="preview_div">
@@ -110,13 +120,13 @@
   <div class="gpgc-hidden gpgc-comment-help" id="help_message">
   </div>
   <div class="gpgc-new-comment-actions">
-    <button class="gpgc-normal-primary-button gpgc-text-button" id="login_button" onclick="loginToGitHub()"><strong>Login to GitHub</strong></button>
-    <button class="gpgc-normal-primary-button gpgc-text-button gpgc-hidden" id="submit_button" onclick="postComment()"><strong>Submit</strong></button>
+    <button class="gpgc-normal-primary-button gpgc-text-button" id="login_button" onclick="loginToGitHub()"><strong>وارد گیت‌هاب شوید</strong></button>
+    <button class="gpgc-normal-primary-button gpgc-text-button gpgc-hidden" id="submit_button" onclick="postComment()"><strong>ثبت</strong></button>
   </div>
 </div>
 
 <div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_disabled">
-  <p class="gpgc-centered-text">Comments are closed</p>
+  <p class="gpgc-centered-text">امکان نظردهی بسته شد</p>
 </div>
 
 <div class="gpgc-new-section gpgc-comments-font gpgc-help-error gpgc-hidden" id="gpgc_reader_error">
@@ -167,23 +177,24 @@
     <section id="aka"><i class="fa fa-user-circle"></i> mimr9</section>
 
 </div>
-<div id="icon-bar">
-    <a href="http://github.com/mimr9/"><i class="fa fa-github"></i></a>
-    <a href="http://linkedin.com/in/mohammadreza-moghimi/"><i class="fa fa-linkedin-square" ></i></a>
-    <a href="http://flickr.com/photos/144451464@N04/"><i class="fa fa-flickr" ></i></a>
-    <a href="http://stackoverflow.com/users/5532744/mimr-moghimi/"><i class="fa fa-stack-overflow" ></i></a>
-    <a href="http://codepen.io/mimr9"><i class="fa fa-codepen" ></i></a>
-    <a href="http://gitlab.com/mimr9/"><i class="fa fa-gitlab" ></i></a>
-    <a href="http://twitter.com/javanevis"><i class="fa fa-twitter-square" ></i></a>
-    <a href="https://addons.mozilla.org/en-US/firefox/user/mimr9/"><i class="fa fa-firefox" ></i></a>
-    <a href="mailto:mimr.moghimi@gmail.com" target="_top"><i class="fa fa-envelope-open" ></i></a>
-    <a href="bitcoin:1AJUPMTt5TJF4KuwQzQV4gqiyLF2XsaCMp"><i class="fa fa-btc" ></i></a>
+<div id="icon-bar" style="background-color: #000;">
+    <a class="tooltip" href="http://github.com/mimr9/"><i class="fa fa-github"><div class="tooltiptext">پروژه‌های من در گیتهاب</div></i></a>
+    <a class="tooltip" href="http://linkedin.com/in/mohammadreza-moghimi/"><i class="fa fa-linkedin-square" ><div class="tooltiptext">رزومه من در لینکدین</div></i></a>
+    <a class="tooltip" href="http://flickr.com/photos/144451464@N04/"><i class="fa fa-flickr" ><div class="tooltiptext">عکس‌های من در فلیکر</div></i></a>
+    <a class="tooltip" href="http://stackoverflow.com/users/5532744/mimr-moghimi/"><i class="fa fa-stack-overflow" ><div class="tooltiptext">پرسش و پاسخ‌های من در استک‌اورفلو</div> </i></a>
+    <a class="tooltip" href="http://codepen.io/mimr9"><i class="fa fa-codepen" ><div class="tooltiptext">کارهای من در سایت کدپن</div></i></a>
+    <a class="tooltip" href="http://gitlab.com/mimr9/"><i class="fa fa-gitlab" ><div class="tooltiptext">پروفایل من در گیت‌لب</div></i></a>
+    <a class="tooltip" href="http://twitter.com/javanevis"><i class="fa fa-twitter-square" ><div class="tooltiptext"> توییت‌های من در توییتر </div></i></a>
+    <a class="tooltip" href="https://addons.mozilla.org/en-US/firefox/user/mimr9/"><i class="fa fa-firefox" ><div class="tooltiptext">پروفایل موزیلا من اگه از فایرفاکس استفاده می‌کنین</div></i></a>
+    <a class="tooltip" href="mailto:mimr.moghimi@gmail.com" target="_top"><i class="fa fa-envelope-open" ><div class="tooltiptext">ایمیل من</div></i></a>
+    <a class="tooltip" href="bitcoin:1AJUPMTt5TJF4KuwQzQV4gqiyLF2XsaCMp"><i class="fa fa-btc" ><div class="tooltiptext">آدرس حساب بیتکوین من</div></i></a>
+    
 
-   
 </div>
 
+
 	</body>
-	<footer id="footer">
+	<footer id="footer" style="background-color: #000;">
 		<script src="/assets/script/script.js"></script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
