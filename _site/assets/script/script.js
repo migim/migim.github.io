@@ -1,7 +1,7 @@
-var height = $('#main-bar').height()
+var height = $('#main-bar').height();
 
-$('#side-bar').height(height)
-$('#icon-bar').height(height)
+$('#side-bar').height(height);
+$('#icon-bar').height(height);
 
 
 $(window).on("load", function () {
@@ -26,3 +26,4 @@ $(window).on("load", function () {
 });
 
 $('#icon-bar a').attr('target', '_blank');
+$('.persianstat img').hide();

@@ -82,7 +82,7 @@ body h1 a {
 	position: relative;
     margin: auto;
     top: -120px;
-    z-index: 100;
+    z-index: 0.5;
     box-sizing: border-box;
     text-align: center;
 }
@@ -119,6 +119,7 @@ body h1 a {
     height: 100%;
     position: relative;
     bottom: 0;
+    z-index: 0;
 }
 
 #footer {
@@ -218,6 +219,37 @@ body h1 a {
     color: rgba(0, 70, 0, 0.6);
     margin-right: 3%;
     margin-top: -10px;
+}
+
+.persianstat {
+	z-index: -2;
+}
+
+.nav-up-right {
+    display: inline-block;
+}
+
+.nav-up-items {
+    margin: auto;
+    display: inline;
+    
+}
+
+.nav-up-items a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: yekan, sans-serif;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+
+.nav-up-items a:hover {
+    background: #eee;
+    color: #002b00;
+    transition: all 300ms;
 }
 
 /* Tooltip for hover icons */
