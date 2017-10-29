@@ -1,12 +1,12 @@
 ---
 layout: post 
 title: برای آزادی بیان و عقیده
-cover: /assets/img/green_leaf_twig_trees_4527_1920x1080.jpg
-feel: '002b00'
-feel-down: '00AF33'
-feel-icon: '00AF33'
+cover: /img/feel-the-sun.jpg
+feel: '84290c'
+feel-down: 'D05800'
+feel-icon: 'D05800'
 feel-icon-back: 'eee'
-feet: '002b00'
+feet: '84290c'
     
 ---
 به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم. 

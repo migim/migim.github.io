@@ -1,12 +1,12 @@
 ---
 title: "آیا یونیتی واقعا ارزش ادامه داشت؟"
 layout: post
-cover: /assets/img/green_leaf_twig_trees_4527_1920x1080.jpg
-feel: '002b00'
-feel-down: '00AF33'
-feel-icon: '00AF33'
+cover: /img/4980413_orig.jpg
+feel: '33122D'
+feel-down: '712E4D'
+feel-icon: '712E4D'
 feel-icon-back: 'eee'
-feet: '002b00'
+feet: '33122D'
 
 ---
 
