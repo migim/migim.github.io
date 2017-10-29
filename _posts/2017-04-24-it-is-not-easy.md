@@ -2,7 +2,7 @@
 title: "اگر آسان بود، پس همه می تواستند"
 layout: post
 cover: /assets/img/mimr-grub.jpg
-feel: black
+feel: '000'
 feel-down: '000'
 feel-icon: '000'
 feel-icon-back: 'eee'
