@@ -225,6 +225,16 @@ body h1 a {
 	z-index: -2;
 }
 
+.nav-up-item {
+    margin: auto 7px;
+    
+}
+
+.nav-up-item a {
+    text-decoration: none;
+    display: inline;
+}
+
 /* Tooltip for hover icons */
 
 .tooltip {
