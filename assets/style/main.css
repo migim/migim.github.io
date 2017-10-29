@@ -225,12 +225,12 @@ body h1 a {
 	z-index: -2;
 }
 
-.nav-up-item {
+.nav-up-items {
     margin: auto 7px;
     
 }
 
-.nav-up-item a {
+.nav-up-items a {
     text-decoration: none;
     display: inline;
 }
