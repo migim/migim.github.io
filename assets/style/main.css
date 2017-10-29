@@ -232,6 +232,7 @@ body h1 a {
 
 .nav-up-items a {
     text-decoration: none;
+    color: white;
 }
 
 /* Tooltip for hover icons */
