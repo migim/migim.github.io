@@ -7,7 +7,7 @@ feel-down: '712E4D'
 feel-icon: '712E4D'
 feel-icon-back: 'eee'
 feet: '33122D'
-categories: [news, linux]
+categories: [linux]
 
 ---
 

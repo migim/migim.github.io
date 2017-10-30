@@ -310,15 +310,12 @@ h2, h3, h4, h5, h6 {
 .continue-link a {
     padding: 7px;
     text-decoration: none;
-    color: white;
     font-family: Lalezar, sans-serif;
     font-size: 18px;
     border-radius: 3px;
 }
 
 .continue-link a:hover {
-    background-color: #eee;
-    color: #00af33;
     transition: all 300ms;
 }
 

@@ -8,7 +8,7 @@ feel-icon: 'D05800'
 feel-icon-back: 'eee'
 feet: '84290c'
 published: true
-categories: [game, motivation]
+categories: [game, photo, programming, linux, design, film, nature]
 tags: [بازی, دررفتن ]
 ---
 
