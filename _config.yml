@@ -4,5 +4,8 @@ title: میگیم دیدگاهی متفاوت
 url: http://migim.ir
 permalink: /:title.html
 
+paginate: 2
+
 gems:
   - jekyll-feed
+  - jekyll-paginate
