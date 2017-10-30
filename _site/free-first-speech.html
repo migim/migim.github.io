@@ -27,6 +27,20 @@
     #icon-bar a:hover {
         background-color: #eee;
         color: #D05800;
+        text-shadow: 0px 0px #eee;
+        transition: all 300ms;
+    }
+    
+    .nav-up-items a:hover {
+        background-color: #eee;
+        color: #84290c;
+        padding-bottom: 3px;
+        transition: all 300ms;
+    }
+    
+    .nav-down-items a:hover {
+        background-color: #eee;
+        color: #D05800;
         transition: all 300ms;
     }
 
@@ -55,7 +69,13 @@
 <nav id="nav-down" style="background-color: #D05800">
 
     <section id="nav-down-right">
-
+        <div class="nav-down-items"><a href="http://localhost:4000/game"><i class="fa fa-gamepad"></i> بازی</a></div>
+        <div class="nav-down-items"><a href="http://localhost:4000/linux"><i class="fa fa-linux"></i> لینوکس</a></div>
+        <div class="nav-down-items"><a href="http://localhost:4000/photo"><i class="fa fa-camera"></i> عکاسی</a></div>
+        <div class="nav-down-items"><a href="http://localhost:4000/nature"><i class="fa fa-pagelines"></i> طبیعت</a></div>
+        <div class="nav-down-items"><a href="http://localhost:4000/programming"><i class="fa fa-keyboard-o"></i> برنامه‌نویسی</a></div>
+        <div class="nav-down-items"><a href="http://localhost:4000/design"><i class="fa fa-paint-brush"></i> طراحی</a></div>
+        <div class="nav-down-items"><a href="http://localhost:4000/film"><i class="fa fa-film"></i> فیلم</a></div>
     </section>
 
     <section id="nav-down-left">
@@ -107,10 +127,10 @@
     <div class="post-categories">
   
   
-  <a href="/tags/#بازی">بازی</a>
+  <a href="/tags/#بازی"><i class="fa fa-tag" ></i>  بازی</a>
   &nbsp;
   
-  <a href="/tags/#دررفتن">دررفتن</a>
+  <a href="/tags/#دررفتن"><i class="fa fa-tag" ></i>  دررفتن</a>
   
   
 </div>

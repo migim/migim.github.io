@@ -58,7 +58,7 @@ h2, h3, h4, h5, h6 {
 	width: 100%;
 	height: 300px;
 	display: block;
-	background-size: cover;
+	background-size: contain;
 	background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -228,6 +228,8 @@ h2, h3, h4, h5, h6 {
     
 }
 
+/* upside navbar items */
+
 .nav-up-items a {
     position: relative;
     text-decoration: none;
@@ -239,11 +241,28 @@ h2, h3, h4, h5, h6 {
     
 }
 
-.nav-up-items a:hover {
-    background: #eee;
-    color: #002b00;
-    transition: all 300ms;
+/* downside navbar items */
+
+.nav-down-items {
+    margin: auto;
+    display: inline;
+    position: relative;
+    top: 7px;
+    right: 10px;
 }
+
+.nav-down-items a {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Lalezar, sans-serif;
+    font-size: 25px;
+}
+
 
 /* Tooltip for hover icons */
 
@@ -295,6 +314,7 @@ h2, h3, h4, h5, h6 {
     color: white;
     font-family: Lalezar, sans-serif;
     font-size: 18px;
+    border-radius: 3px;
 }
 
 .continue-link a:hover {
@@ -322,4 +342,17 @@ h2, h3, h4, h5, h6 {
     transition: all 300ms;
 }
 
+blockquote {
+    background: #eee;
+    border-radius: 10px;
+    padding: 5px;
+    color: rgba(0,0,0,0.7);
+}
+
+blockquote p {
+    font-family: Gandom, sans-serif;
+    display: inline-block;
+    color: black;
+    
+}
 /* Animation part of the project */

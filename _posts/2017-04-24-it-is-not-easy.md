@@ -7,6 +7,7 @@ feel-down: '7C8146'
 feel-icon: '7C8146'
 feel-icon-back: 'eee'
 feet: '5F6051'
+category: linux
 
 ---
 

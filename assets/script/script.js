@@ -27,3 +27,4 @@ $(window).on("load", function () {
 
 $('#icon-bar a').attr('target', '_blank');
 $('.persianstat img').hide();
+$('blockquote').attr('class', 'fa fa-quote-right');

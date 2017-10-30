@@ -1,8 +1,11 @@
-<nav id="nav-up" style="background-color: #{{ page.feel }};">
+<nav id="nav-up" style="background-color: #{{ page.feel }}">
 
     <section id="nav-up-right">
+
+
         <div class="nav-up-items"><a href="{{ site.url }}/about">درباره من</a></div>
         <div class="nav-up-items"><a href="{{ site.url }}/contact-me">تماس با من</a></div>
+
     </section>
 
     <section id="nav-up-left">
@@ -13,7 +16,7 @@
 
 <div id="cover" style="background-image: url('{{ page.cover }}')">
     <section id="site-title"><a href="{{ site.url }}"><img src="/assets/img/migim-brand.png"></a></section>
-    <section id="site-description">اگر برنامه‌نویس نیستید <i class="fa fa-comments-o" aria-hidden="true"></i> اینجا چیزی نگید <i class="fa fa-blind" aria-hidden="true"></i></section>
+    <section id="site-description">به وسعت آسمان و با آرامش طبیعت</section>
 </div>
 
 <nav id="nav-down" style="background-color: #{{ page.feel-down }}">
@@ -34,35 +37,29 @@
 
 </nav>
 
-<div id="main-bar">
 
-    <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+
+<div id="main-bar">
+    
+    {% for post in site.categories.design %}
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <div class="date">
         <i class="fa fa-clock-o"></i>
         <script>
             moment.loadPersian();
-            var date = moment('{{ page.date }}', 'YYYY-M-D').format('jD jMMMM jYY');
+            var date = moment('{{ post.date }}', 'YYYY-M-D').format('jD jMMMM jYY');
             document.write(date);
 
         </script>
     </div>
+    <br> {{ post.excerpt }} <br> 
+    
+    <section class="continue">
+        <span class="continue-link"><a href="{{ post.url }}">ادامه مطلب</a></span>
+    </section>
     <br>
-    <p>{{ page.content }}</p>
-    <br>
-    <div class="post-categories">
-  {% if post %}
-    {% assign tagies = post.tags %}
-  {% else %}
-    {% assign tagies = page.tags %}
-  {% endif %}
-  {% for tag in tagies %}
-  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tag" ></i>  {{tag}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
-<br>
-    {% include gpgc_comments.html post_title=page.title %}
-
+    {% endfor %}
+    
 </div>
 <div id="side-bar">
     <div id="avatar"></div>
@@ -86,7 +83,6 @@
     <a class="tooltip" href="https://addons.mozilla.org/en-US/firefox/user/{{ site.data.author.firefox }}/"><i class="fa fa-firefox" ><div class="tooltiptext">پروفایل موزیلا من اگه از فایرفاکس استفاده می‌کنین</div></i></a>
     <a class="tooltip" href="mailto:{{ site.data.author.email }}" target="_top"><i class="fa fa-envelope-open" ><div class="tooltiptext">ایمیل من</div></i></a>
     <a class="tooltip" href="bitcoin:{{ site.data.author.bitcoin }}"><i class="fa fa-btc" ><div class="tooltiptext">آدرس حساب بیتکوین من</div></i></a>
-    
+
 
 </div>
-
