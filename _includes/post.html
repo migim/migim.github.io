@@ -42,8 +42,19 @@
     </div>
     <br>
     <p>{{ page.content }}</p>
-
-
+    <br>
+    <div class="post-categories">
+  {% if post %}
+    {% assign tagies = post.tags %}
+  {% else %}
+    {% assign tagies = page.tags %}
+  {% endif %}
+  {% for tag in tagies %}
+  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
+<br>
     {% include gpgc_comments.html post_title=page.title %}
 
 </div>

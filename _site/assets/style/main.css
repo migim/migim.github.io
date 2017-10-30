@@ -27,7 +27,9 @@ html, body {
 
 body p {
     font-family: yekan, Gandom, sans-serif;
-    font-size: 15px;
+    font-size: 16px;
+    color: rgba(0,0,0,0.7);
+    margin-right: 10px;
 }
 
 body #main-bar h1 {
@@ -42,6 +44,10 @@ body h1 a {
     color: #1E824C;
 }
 
+h2, h3, h4, h5, h6 {
+    font-family: yekan, sans-serif;
+}
+
 #nav-up {
 	width: 100%;
 	height: 40px;
@@ -54,6 +60,7 @@ body h1 a {
 	display: block;
 	background-size: cover;
 	background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #nav-down {
@@ -267,24 +274,52 @@ body h1 a {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+/* The end of the tooltip part */
 
-.tooltip .tooltiptext .tooltipright {
-    
+.continue {
+    width: 100%;
+    height: 40px;
 }
 
-.tooltip .tooltiptext .tooltipleft {
-    top: -5px;
-    right: 105%;
+.continue-link {
+    position: relative;
+    top: 10px;
+    margin: auto 15px;
+    float: left;
 }
 
-.tooltip .tooltiptext .tooltipup {
-    bottom: 100%;
-    left: 50%; 
+.continue-link a {
+    padding: 7px;
+    text-decoration: none;
+    background-color: #00AF33;
+    color: white;
+    font-family: Lalezar, sans-serif;
+    font-size: 18px;
 }
 
-.tooltip .tooltiptext .tooltipdown {
-    top: 100%;
-    left: 50%;
+.continue-link a:hover {
+    background-color: #eee;
+    color: #00af33;
+    transition: all 300ms;
+}
+
+.post-categories a {
+    position: relative;
+    right: 15px;
+    font-family: Lalezar, sans-serif;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 7px;
+    background-color: #1E824C;
+    color: white;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.post-categories a:hover {
+    background-color: #eee;
+    color: #1e824c;
+    transition: all 300ms;
 }
 
 /* Animation part of the project */
