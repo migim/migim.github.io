@@ -3,3 +3,6 @@ title: میگیم دیدگاهی متفاوت
 
 url: http://migim.ir
 permalink: /:title.html
+
+gems:
+  - jekyll-feed
