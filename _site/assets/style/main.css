@@ -351,4 +351,17 @@ blockquote p {
     color: black;
     
 }
+
+.rss {
+    font-size: 18px;
+    float: left;
+    text-decoration: none;
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+
+.rss a {
+    color: white;   
+}
 /* Animation part of the project */
