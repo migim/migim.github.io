@@ -146,6 +146,7 @@ h2, h3, h4, h5, h6 {
      padding: 3px;
      margin-bottom: 15px;
      text-shadow: 1px 1px #333;
+     transition: all 300ms ease-in, all 300ms ease-out;
 }
 
 #site-title {
@@ -238,6 +239,7 @@ h2, h3, h4, h5, h6 {
     font-size: 18px;
     padding-right: 15px;
     padding-left: 15px;
+    transition: all 300ms ease-in, all 300ms ease-out;
     
 }
 
@@ -261,6 +263,7 @@ h2, h3, h4, h5, h6 {
     color: white;
     font-family: Lalezar, sans-serif;
     font-size: 25px;
+    transition: all 300ms ease-in, all 300ms ease-out;
 }
 
 
@@ -313,10 +316,10 @@ h2, h3, h4, h5, h6 {
     font-family: Lalezar, sans-serif;
     font-size: 18px;
     border-radius: 3px;
+    transition: all 300ms ease-in, all 300ms ease-out;
 }
 
 .continue-link a:hover {
-    transition: all 300ms;
 }
 
 .post-categories a {
@@ -330,12 +333,12 @@ h2, h3, h4, h5, h6 {
     color: white;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
+    transition: all 300ms ease-in, all 300ms ease-out;
 }
 
 .post-categories a:hover {
     background-color: #eee;
     color: #1e824c;
-    transition: all 300ms;
 }
 
 blockquote {
