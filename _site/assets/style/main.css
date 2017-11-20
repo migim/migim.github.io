@@ -21,8 +21,8 @@
 html, body {
 	margin: 0;
 	padding: 0;
-    width: 100%;
-    height: 100%;
+    	width: 100%;
+    	height: 100%;
 }
 
 body p {
@@ -368,3 +368,51 @@ blockquote p {
     color: white;   
 }
 /* Animation part of the project */
+
+
+
+/* For responsive design */
+
+@media only screen and ( max-width: 1220px ) {
+	#nav-down {
+	}
+
+	#side-bar {
+		display: block;
+		width: 90%;
+	}
+
+	#icon-bar {
+		display: block;
+		width: 10%;
+	}
+
+	#main-bar {
+		display: block;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	#cover {
+		background-size: cover;
+	}
+
+	#site-description {
+		visibility: hidden;
+	}
+
+	body {
+		overflow-x: hidden;
+	}
+
+}
+
+@media only screen and ( max-width: 930px ) {
+	#nav-down {
+		visibility: hidden;
+	}
+
+	#cover {
+		border-bottom: 3px solid green;
+	}
+}
