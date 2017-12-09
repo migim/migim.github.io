@@ -3,11 +3,47 @@
 layout: page
 title: تماس با من
 date: 2017-10-29    
-cover: /assets/img/green_leaf_twig_trees_4527_1920x1080.jpg
-feel: 002b00
-feel-down: '00AF33'
-feel-icon: '00AF33'
+cover: /assets/img/contact-me.jpg
+feel: '051400'
+feel-down: '263926'
+feel-icon: '263926'
 feel-icon-back: 'eee'
-feet: '002b00'
+feet: '051400'
 
 ---
+راه‌های تماس با من بسیار زیاد هست. هر کدوم رو که می‌پسندین انتخاب کنین. حالا قصدتون هر چی که هست:
+<br />
+<input type="checkbox" checked="">تهدید
+<br />
+<input type="checkbox" checked=""> تشویق
+<br />
+<input type="checkbox" checked=""> مصاحبه
+<br />
+<input type="checkbox" checked=""> مباحثه
+<br />
+<input type="checkbox" checked=""> کمک
+<br />
+<input type="checkbox" checked=""> کار شخصی
+<br />
+<input type="checkbox" checked=""> می‌خواین حسابامو هک کنین 
+<br />
+<input type="checkbox" checked=""> نامه عاشقانه
+<br />
+<input type="checkbox" checked=""> نامه تنفر
+<br />
+<input type="checkbox" checked=""> پیشنهاد و ...
+<br />
+هر جور که راحتین می‌تونین یکی از روش‌های زیر رو برای ارتباط با من استفاده کنین:
+<br /><br />
+<input type="checkbox"> به من ایمیل بزنید:
+<h4 style="text-align: center; font-family: Gandom, sans-serif;"><a href="mailto:mimr.moghimi@gmail.com?subject=تماس با محمدرضا مقیمی" style="text-decoration: none; color: white; background-color: #051400; padding: 10px; border-radius: 4px; " target="_blank" > mimr.moghimi@gmail.com</a></h4>
+<br />
+ <p><input type="checkbox">به آی‌دی من روی تلگرام پیام بفرستین:</p>
+<h4 style="text-align: center; direction:ltr;font-family: Gandom, sans-serif;"><a href="https://t.me/mimr9" style="text-decoration: none; color: white; background-color: #051400; padding: 10px; border-radius: 4px;" target=_blank >@mimr9</a></h4>
+<br />
+<p><input type="checkbox">روی لینکدین بهم پیام بدین:</p>
+
+<h4 style="text-align: center; direction:ltr;font-family: Gandom, sans-serif;"><a href="http://linkedin.com/in/mohammadreza-moghimi/" target=_blank style="text-decoration: none; color: white; background-color: #051400; padding: 10px; border-radius: 4px;" >mohammadreza-moghimi</a></h4>
+<br />
+
+<p><input type="checkbox"> در آخر هم می‌تونین از تمام شبکه‌هایی که آیکنشون توی بخش آیکن‌بار کنار هست ( حتی می‌تونین بیتکوین برام بفرستین و یه ایمیل هدیه بفرستین برام ) برای تماس با من استفاده کنین ولی خب موارد بالا سریع‌تر هستن.
