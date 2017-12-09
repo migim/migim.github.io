@@ -367,6 +367,18 @@ blockquote p {
 .rss a {
     color: white;   
 }
+
+.highlight {
+	padding: 4px;
+	border-radius: 4px;
+	background-color: #dde;
+	display: block;
+	margin: 10px;
+	direction: ltr;
+}
+code {
+		
+}
 /* Animation part of the project */
 
 
