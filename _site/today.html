@@ -26,46 +26,43 @@
 
     #icon-bar a:hover {
         background-color: #eee;
-        color: #00AF33;
+        color: #D05800;
         text-shadow: 0px 0px #eee;
         transition: all 300ms;
     }
     
     .nav-up-items a:hover {
         background-color: #eee;
-        color: #002b00;
+        color: #84290c;
         padding-bottom: 3px;
         transition: all 300ms;
     }
     
     .nav-down-items a:hover {
         background-color: #eee;
-        color: #00AF33;
+        color: #D05800;
         transition: all 300ms;
     }
     
     .continue-link a {
-        background-color: #00AF33;
+        background-color: #D05800;
         color: #eee;
     }
     
     .continue-link a:hover {
         background-color: #eee;
-        color: #00AF33;
+        color: #D05800;
     }
 
 </style>
 
 	</head>
 	<body>
-		<nav id="nav-up" style="background-color: #002b00">
+		<nav id="nav-up" style="background-color: #84290c;">
 
     <section id="nav-up-right">
-
-
         <div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
         <div class="nav-up-items"><a href="http://localhost:4000/contact-me">تماس با من</a></div>
-
     </section>
 
     <section id="nav-up-left">
@@ -74,12 +71,12 @@
 
 </nav>
 
-<div id="cover" style="background-image: url('/img/DSCF0195.jpg')">
+<div id="cover" style="background-image: url('/img/feel-the-sun.jpg')">
     <section id="site-title"><a href="http://localhost:4000"><img src="/assets/img/migim-brand.png"></a></section>
-    <section id="site-description">به وسعت آسمان و با آرامش طبیعت</section>
+    <section id="site-description">اگر برنامه‌نویس نیستید <i class="fa fa-comments-o" aria-hidden="true"></i> اینجا چیزی نگید <i class="fa fa-blind" aria-hidden="true"></i></section>
 </div>
 
-<nav id="nav-down" style="background-color: #00AF33">
+<nav id="nav-down" style="background-color: #D05800">
 
     <section id="nav-down-right">
         <div class="nav-down-items"><a href="http://localhost:4000/game"><i class="fa fa-gamepad"></i> بازی</a></div>
@@ -97,11 +94,8 @@
 
 </nav>
 
-
-
 <div id="main-bar">
-    
-    
+
     <h1><a href="/today.html">امتحانی</a></h1>
     <div class="date">
         <i class="fa fa-clock-o"></i>
@@ -112,7 +106,8 @@
 
         </script>
     </div>
-    <br> <h2 id="سلام-دوستان">سلام دوستان</h2>
+    <br>
+    <p><h2 id="سلام-دوستان">سلام دوستان</h2>
 <ul>
   <li>[x] چطوره حال شما؟
     <blockquote>
@@ -120,53 +115,97 @@
     </blockquote>
   </li>
 </ul>
- <br> 
-    
-    <section class="continue">
-        <span class="continue-link"><a href="/today.html">ادامه مطلب</a></span>
-    </section>
+</p>
     <br>
+    <div class="post-categories">
+  
+  
+  <a href="/tags/#بازی"><i class="fa fa-tag" ></i>  بازی</a>
+  &nbsp;
+  
+  <a href="/tags/#دررفتن"><i class="fa fa-tag" ></i>  دررفتن</a>
+  
+  
+</div>
+<br>
     
-    <h1><a href="/it-is-not-easy.html">اگر آسان بود، پس همه می تواستند</a></h1>
-    <div class="date">
-        <i class="fa fa-clock-o"></i>
-        <script>
-            moment.loadPersian();
-            var date = moment('2017-04-24 00:00:00 +0430', 'YYYY-M-D').format('jD jMMMM jYY');
-            document.write(date);
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_all_comments">
+</div>
 
-        </script>
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_no_comments">
+  <p class="gpgc-centered-text">هنوز نظری ثبت نشد</p>
+</div>
+
+<div class="gpgc-actions gpgc-hidden gpgc-color-theme" id="gpgc_actions">
+  <span class="gpgc-action gpgc-centered-text">
+    <button class="gpgc-large-secondary-button" id="show_comments_button" onclick="showAllComments(CommentsArray)"></button>
+  </span>
+</div>
+
+<div class="gpgc-comment gpgc-comments-font gpgc-color-theme" id="gpgc_new_comment">
+  <div class="gpgc-comment-header">
+    <a id="gpgc_reader_url" href=""><img class="gpgc-avatar" id="gpgc_reader_avatar" src="" height="42" /><span id="gpgc_reader_login">شما</span></a>
+    <small>امروز</small>
+    <div class="gpgc-tabs">
+      <button class="gpgc-tab gpgc-text-button" id="write_button">نوشتن</button>
+      <button class="gpgc-tab gpgc-text-button" id="preview_button">پیش‌نمایش</button>
     </div>
-    <br> <p>خیلی از مواقع که توی زندگی می خواین کاری انجام بدین، یه چیزی جلوتون رو میگیره. چیزی که خیلی خطرناکه. اسم آشنایی داره برای ما، منظورم ترس هست. ترس از خیلی چیزها. می خوایم ایده خودمون رو پیاده سازی کنیم می‌ترسیم. می‌خوایم دنبال علاقه‌ها و آرزوهامون بریم می‌ترسیم. می‌خوایم یه جایی بریم که خیلی زیبا و بکر هست اما می‌ترسیم. یکی از بزرگترین دشمنای ما ترس از حرکت هست. بهانه آوردن از انجام کار هست. ترس راه‌های مختلفی برای ورود به زندگی ما پیدا می‌کنه، بذارین در مورد یکی از اصلی‌ترین روش‌ها براتون بگم :</p>
-
- <br> 
-    
-    <section class="continue">
-        <span class="continue-link"><a href="/it-is-not-easy.html">ادامه مطلب</a></span>
-    </section>
-    <br>
-    
-    <h1><a href="/free-first-speech.html">برای آزادی بیان و عقیده</a></h1>
-    <div class="date">
-        <i class="fa fa-clock-o"></i>
-        <script>
-            moment.loadPersian();
-            var date = moment('2017-04-06 00:00:00 +0430', 'YYYY-M-D').format('jD jMMMM jYY');
-            document.write(date);
-
-        </script>
+  </div>
+  <div class="gpgc-new-comment" id="write_div">
+    <div class="gpgc-new-comment-form">
+      <textarea class="gpgc-new-comment-form-textarea" id="new_comment_field" placeholder="نظر خود را اینجا بنویسید"></textarea>
     </div>
-    <br> <p>به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم
-. اگر فکر می کنین چیزی دارین و یا کاری می تونین بکنین که می تونه دنیای خودتون رو عوض کنه … پس شروع کنین. شک نکنین که می تونین همه چی رو تغییر بدین و زندگی رو از نو بسازین … ترس رو کنار بذارین و دنیای جدید رو تنفس کنین</p>
+  </div>
+  <div class="gpgc-new-comment gpgc-comment-contents gpgc-hidden" id="preview_div">
+  </div>
+  <div class="gpgc-hidden gpgc-comment-help" id="help_message">
+  </div>
+  <div class="gpgc-new-comment-actions">
+    <button class="gpgc-normal-primary-button gpgc-text-button" id="login_button" onclick="loginToGitHub()"><strong>وارد گیت‌هاب شوید</strong></button>
+    <button class="gpgc-normal-primary-button gpgc-text-button gpgc-hidden" id="submit_button" onclick="postComment()"><strong>ثبت</strong></button>
+  </div>
+</div>
 
- <br> 
-    
-    <section class="continue">
-        <span class="continue-link"><a href="/free-first-speech.html">ادامه مطلب</a></span>
-    </section>
-    <br>
-    
-    
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_disabled">
+  <p class="gpgc-centered-text">امکان نظردهی بسته شد</p>
+</div>
+
+<div class="gpgc-new-section gpgc-comments-font gpgc-help-error gpgc-hidden" id="gpgc_reader_error">
+</div>
+
+<div class="gpgc_last_div">
+</div>
+
+<script type="text/javascript" src="/public/js/gpgc_core.js"></script>
+
+<script>
+  window.addEventListener("error", onError);
+  function onError(error) {
+    var errorMessage = "<h3><strong>gpgc</strong> Error: Global Exception</h3>";
+    errorMessage += "<p><dl><dt>Error</dt><dd>" + error.message + "</dd><dt>URL</dt><dd>" + error.filename + "</dd><dt>Line</dt><dd>" + error.lineno + "</dd><dt>Column</dt><dd>" + error.colno + "</dd></dl></p>"
+    showGeneralHelp(errorMessage);
+  }
+</script>
+
+<script>
+  var gpgc = {
+    new_comments_disabled: new Boolean(false).valueOf() || new Boolean().valueOf(),
+    site_url: "http://localhost:4000",
+    page_path: "_posts/2017-12-09-today.md",
+    issue_title: "امتحانی",
+    repo_id: "migim/migim.github.io",
+    use_show_action: false,
+    github_application_client_id: "917f9a59de9bb6fdeb97",
+    github_application_code_authenticator_url: "http://neomigim.herokuapp.com/authenticate/",
+    github_application_login_redirect_url: "http://migim.ir/public/html/gpgc_redirect.html",
+    enable_diagnostics: false,
+  };
+
+  gpgc_main();
+</script>
+
+
+
 </div>
 <div id="side-bar">
     <div id="avatar"></div>
@@ -179,7 +218,7 @@
     <section id="aka"><i class="fa fa-user-circle"></i> mimr9</section>
 
 </div>
-<div id="icon-bar" style="background-color: #00AF33;">
+<div id="icon-bar" style="background-color: #D05800;">
     <a class="tooltip" href="http://github.com/mimr9/"><i class="fa fa-github"><div class="tooltiptext">پروژه‌های من در گیتهاب</div></i></a>
     <a class="tooltip" href="http://linkedin.com/in/mohammadreza-moghimi/"><i class="fa fa-linkedin-square" ><div class="tooltiptext">رزومه من در لینکدین</div></i></a>
     <a class="tooltip" href="http://flickr.com/photos/144451464@N04/"><i class="fa fa-flickr" ><div class="tooltiptext">عکس‌های من در فلیکر</div></i></a>
@@ -190,12 +229,13 @@
     <a class="tooltip" href="https://addons.mozilla.org/en-US/firefox/user/mimr9/"><i class="fa fa-firefox" ><div class="tooltiptext">پروفایل موزیلا من اگه از فایرفاکس استفاده می‌کنین</div></i></a>
     <a class="tooltip" href="mailto:mimr.moghimi@gmail.com" target="_top"><i class="fa fa-envelope-open" ><div class="tooltiptext">ایمیل من</div></i></a>
     <a class="tooltip" href="bitcoin:1AJUPMTt5TJF4KuwQzQV4gqiyLF2XsaCMp"><i class="fa fa-btc" ><div class="tooltiptext">آدرس حساب بیتکوین من</div></i></a>
-
+    
 
 </div>
 
+
 	</body>
-	<footer id="footer" style="background-color: #002b00;">
+	<footer id="footer" style="background-color: #84290c;">
 		<script src="/assets/script/script.js"></script>
 
 
