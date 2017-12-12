@@ -3,6 +3,10 @@ title: میگیم دیدگاهی متفاوت
 
 url: http://migim.ir
 permalink: /:title.html
+#paginate_path: "/blog/page:num/"
+paginate: 3 
+pagination_dir: blog
 
-gems:
+plugins:
   - jekyll-feed
+  - jekyll-paginate
