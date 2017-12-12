@@ -428,3 +428,7 @@ code {
 		border-bottom: 3px solid green;
 	}
 }
+
+.pagination {
+	font-family: Gandom, sans-serif;
+}
