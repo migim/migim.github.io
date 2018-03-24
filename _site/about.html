@@ -11,108 +11,53 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<link rel="stylesheet" type="text/css" href="/assets/style/normalize.css">
+<link rel="stylesheet" type="text/css" href="/assets/style/skeleton.css">
 <link rel="stylesheet" type="text/css" href="/assets/style/main.css">
 <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="/public/css/gpgc_styles.css">
   
 <link rel="shortcut icon" href="/assets/img/favicon.ico" >
-<title> میگیم دیدگاهی متفاوت </title>
+<title> میگیم از دیدگاهی شاید متفاوت </title>
 
-<script src="/assets/script/jquery-3.2.1.min.js"></script>
 <script src="/assets/script/moment.min.js"></script>
 <script src="/assets/script/moment-jalali.js"></script>
 
-<style>
-
-    #icon-bar a:hover {
-        background-color: #eee;
-        color: #00AF33;
-        text-shadow: 0px 0px #eee;
-        transition: all 300ms;
-    }
-    
-    .nav-up-items a:hover {
-        background-color: #eee;
-        color: #002b00;
-        padding-bottom: 3px;
-        transition: all 300ms;
-    }
-    
-    .nav-down-items a:hover {
-        background-color: #eee;
-        color: #00AF33;
-        transition: all 300ms;
-    }
-    
-    .continue-link a {
-        background-color: #00AF33;
-        color: #eee;
-    }
-    
-    .continue-link a:hover {
-        background-color: #eee;
-        color: #00AF33;
-    }
-
-</style>
-
 	</head>
 	<body>
-		<nav id="nav-up" style="background-color: #002b00;">
+		
+		<nav id="nav-up" >
+			<section id="nav-up-left">
+				<div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
+				<div class="nav-up-items"><a href="http://localhost:4000/contact-me">تماس با من</a></div>
+			</section>
+			<div id="cover">
+				<section id="site-title"><a href="http://localhost:4000"><i class="fa fa-space-shuttle"></i>&nbsp;<span>میگیم</span></a></section>
+				<section id="site-discription"><span>از دیدگاهی شاید متفاوت</span></section>
+			</div>
+		</nav>
 
-    <section id="nav-up-right">
-        <div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
-        <div class="nav-up-items"><a href="http://localhost:4000/contact-me">تماس با من</a></div>
-    </section>
+<div class="container">
+	<div class="row">
+		<div class="nine column">
+			<div class="post-container">
+				<div class="post-title"><h2><a href="/about">درباره من</a></h2></div>
+				    <div class="date">
+					<i class="fa fa-clock-o"></i>
+					<script>
+					    moment.loadPersian();
+					    var date = moment('2017-10-28', 'YYYY-M-D').format('dddd jD jMMMM jYY');
+					    document.write(date);
 
-    <section id="nav-up-left">
-        <div class="rss"><a href="http://localhost:4000/feed"><i class="fa fa-rss"></i></a></div>
-    </section>
-
-</nav>
-
-<div id="cover" style="background-image: url('/assets/img/green_leaf_twig_trees_4527_1920x1080.jpg')">
-   <section id="site-title"><a href="http://localhost:4000"><img src="/assets/img/migim-brand.png"></a></section>
-    <section id="site-description">اگر برنامه‌نویس نیستید <i class="fa fa-comments-o" aria-hidden="true"></i> اینجا چیزی نگید <i class="fa fa-blind" aria-hidden="true"></i></section>
-</div>
-
-<nav id="nav-down" style="background-color: #00AF33">
-
-    <section id="nav-down-right">
-        <div class="nav-down-items"><a href="http://localhost:4000/game"><i class="fa fa-gamepad"></i> بازی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/linux"><i class="fa fa-linux"></i> لینوکس</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/photo"><i class="fa fa-camera"></i> عکاسی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/nature"><i class="fa fa-pagelines"></i> طبیعت</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/programming"><i class="fa fa-keyboard-o"></i> برنامه‌نویسی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/design"><i class="fa fa-paint-brush"></i> طراحی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/film"><i class="fa fa-film"></i> فیلم</a></div>
-    </section>
-
-    <section id="nav-down-left">
-
-    </section>
-
-</nav>
-
-<div id="main-bar">
-
-    <h1><a href="/about">درباره من</a></h1>
-    <div class="date">
-        <i class="fa fa-clock-o"></i>
-        <script>
-            moment.loadPersian();
-            var date = moment('2017-10-28', 'YYYY-M-D').format('jD jMMMM jYY');
-            document.write(date);
-
-        </script>
-    </div>
-    <br>
-    <p>به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم. 
+					</script>
+				    </div>
+			    <br>
+			    <p>به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم. 
 
 ### چرا میگیم؟
 
 خب،‌ واقعیت این بود که بنده حدود سه سال پیش قصد داشتم یک دامین‌ای ثبت کنم و نمی‌دونستم چه باید کرد. با خودم گفتم که اسم‌های مختلف رو دسته‌بندی کنم و به ترتیب بنویس و تک‌تک امتحان کنم. اون لیست به خاطره‌ها پیوست اما توی یکی از اولین امتحان‌هایی که جواب داد این دامین ثبت نشده بود. خیلی با خودم کلنجار رفتم که آخه این چه اسمیه و یعنی چه، به هر صورت ثبت کردم و خوشم اومد. خب اسم تکی بود. اسم سایت و دامنه اون مهمه که همسان باشن و منظور هم رو برسونن و باعث بشن که بازدیدکننده سریع و راحت یادش بمونه این اسم، اما شما باید یک هدفی از ثبت و کار روی سایت داشته باشین تا این اسم ارزش پیدا کنه.
-از فعالیت‌های دوران ابتدای دانشگاه من این سایت بود که با وردپرس فارسی روی یکی از هاست‌های داخلی بالا آوردمش. خب هر چیزی توش می‌نوشتم و استفاده های مختلف برام داشت.
+از فعالیت‌های دوران ابتدای دانشگاه من این سایت بود که با وردپرس فارسی روی یکی از هاست‌های داخلی بالا آوردمش. خب هر چیزی توش می‌نوشتم و استفاده های مخت برام داشت.
 
 ولی حالا اینجا تبدیل شده به وبلاگی با عنوان میگیم،‌ در ابتدا ادامه عنوان این بود : 
 
@@ -121,7 +66,7 @@
 خب راستش خیلی دهن پر کن هست، با کلی فکر و خیال دیدم که نه. این مصداق اون طبلی بود که روباهه ازش میترسید. 
 چرا که واقعیت این هست که بنده یه آزادی‌خواه نیستم و این یک شعار فقط دهن پر کن هست و هدف بنده رو از بالا آوردن دوباره این سایت،‌ ضایع می کنه. پس سعی کردم واقعی‌تر باشه.
 
-### ولی حالا،‌ چرا میگیم؟
+### ولی حالا،‌ چرا میگیم
 
 دلیل اصلی این که می خوام از تفکرات و عقاید و علاقه‌هام بگم این هست که باعث میشه بیشتر تحقیق کنم، بیشتر با افراد علاقه‌مند به عرصه کامپیوتر و برنامه‌نویسی در ارتباط باشم و در یک کلام بر این باورم که علم همواره برای همگان آزاد هست و باید با هم پیشرفت کرد. 
 
@@ -130,47 +75,24 @@
 یکی از بزرگترین مشکلاتی که الان سایت داره اینه که سیستم کامنت‌گذاری سایت فعال نیست چرا که یکی از مهمترین سایت‌های فراهم آورنده این سیستم که disqus باشد،‌ به دلایل مختلف از جمله محتوای مجرمانه برای ما دستگیر و فیلتر شده .
 در همین راستا بنده روش‌های مختلفی رو امتحان کردم و در آخر عرض می‌کنم که باید خودم این بخش رو بنویسم و امکانات مناسبی تا به کنون پیدا نکردم.
 </p>
-
+			    <br>
+				 <div class="post-categories">
+					  
+					  
+				</div>
+			</div>
+		</div>
+    	</div>
 </div>
-<div id="side-bar">
-    <div id="avatar"></div>
-    <section id="bio-header">
-        <h1>محمدرضا مقیمی</h1>
-    </section>
-    <section id="bio-des-one">
-        <h2><i class="fa fa-address-card"> طراح و توسعه‌دهنده نرم‌افزار</i></h2>
-    </section>
-    <section id="aka"><i class="fa fa-user-circle"></i> mimr9</section>
-
-</div>
-<div id="icon-bar" style="background-color: #00AF33;">
-    <a class="tooltip" href="http://github.com/mimr9/"><i class="fa fa-github"><div class="tooltiptext">پروژه‌های من در گیتهاب</div></i></a>
-    <a class="tooltip" href="http://linkedin.com/in/mohammadreza-moghimi/"><i class="fa fa-linkedin-square" ><div class="tooltiptext">رزومه من در لینکدین</div></i></a>
-    <a class="tooltip" href="http://flickr.com/photos/144451464@N04/"><i class="fa fa-flickr" ><div class="tooltiptext">عکس‌های من در فلیکر</div></i></a>
-    <a class="tooltip" href="http://stackoverflow.com/users/5532744/mimr-moghimi/"><i class="fa fa-stack-overflow" ><div class="tooltiptext">پرسش و پاسخ‌های من در استک‌اورفلو</div> </i></a>
-    <a class="tooltip" href="http://codepen.io/mimr9"><i class="fa fa-codepen" ><div class="tooltiptext">کارهای من در سایت کدپن</div></i></a>
-    <a class="tooltip" href="http://gitlab.com/mimr9/"><i class="fa fa-gitlab" ><div class="tooltiptext">پروفایل من در گیت‌لب</div></i></a>
-    <a class="tooltip" href="http://twitter.com/javanevis"><i class="fa fa-twitter-square" ><div class="tooltiptext"> توییت‌های من در توییتر </div></i></a>
-    <a class="tooltip" href="https://addons.mozilla.org/en-US/firefox/user/mimr9/"><i class="fa fa-firefox" ><div class="tooltiptext">پروفایل موزیلا من اگه از فایرفاکس استفاده می‌کنین</div></i></a>
-    <a class="tooltip" href="mailto:mimr.moghimi@gmail.com" target="_top"><i class="fa fa-envelope-open" ><div class="tooltiptext">ایمیل من</div></i></a>
-    <a class="tooltip" href="bitcoin:1AJUPMTt5TJF4KuwQzQV4gqiyLF2XsaCMp"><i class="fa fa-btc" ><div class="tooltiptext">آدرس حساب بیتکوین من</div></i></a>
-    
-
-</div>
-
 
 	</body>
-	<footer id="footer" style="background-color: #002b00;">
-		<script src="/assets/script/script.js"></script>
+	<footer id="footer" style="background-color: #;">
+		<section class="copyleft" style="color: white; font-family: yekan, sans-serif; clear: both; text-align: center; position: relative; bottom: 5px;">
 
-
-
-
-<section class="copyleft" style="color: white; font-family: yekan, sans-serif; clear: both; text-align: center; position: relative; bottom: 5px;">
-
-    <span style="font-size: 18px;">ساخته‌ای برآمده از <a target="_blank" href="http://mimr.ir"><i class="fa fa-heart" style="color: white;"></i></a> به کمک <span><a target="_blank" href="http://jekyllrb.com"><img src="/img/jekyll-brand.svg" style=" width: 70px; height: auto; filter: invert(100); position: relative; top: 10px;"></a></span> و <span><a href="http://github.com" target="_blank"><img src="/assets/img/GitHub_Logo_White.png" style="max-width: 80px;position: relative; top: 10px;"></a></span></span>
+    <span style="font-size: 18px;">ساخته‌ای‌ای برآمده از <a target="_blank" href="http://mimr.ir"><i class="fa fa-heart" style="color: white;"></i></a> به کمک <span><a target="_blank" href="http://jekyllrb.com"><img src="/img/jekyll-brand.svg" style=" width: 70px; height: auto; filter: invert(100); position: relative; top: 10px;"></a></span> و <span><a href="http://github.com" target="_blank"><img src="/assets/img/GitHub_Logo_White.png" style="max-width: 80px;position: relative; top: 10px;"></a></span></span>
 
 </section>
+
 	</footer>
 
 </html>

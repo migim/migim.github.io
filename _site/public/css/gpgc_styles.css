@@ -40,10 +40,14 @@
 
 .gpgc-centered-text {
   text-align: center;
+  font-size: 15px;
+  font-family: Gandom, sans-serif;
 }
 
 .gpgc-comments-font {
   font-size: .8rem;
+  font-family: Gandom, sans-serif;
+  font-size: 15px;
 }
 
 .gpgc-new-section {
@@ -53,7 +57,6 @@
 .gpgc-text-button {
   padding-left: 1.4rem;
   padding-right: 1.4rem;
-  padding-top: .4rem;
   padding-bottom: .4rem;
   cursor: pointer;
 }

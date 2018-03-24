@@ -11,103 +11,47 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
+<link rel="stylesheet" type="text/css" href="/assets/style/normalize.css">
+<link rel="stylesheet" type="text/css" href="/assets/style/skeleton.css">
 <link rel="stylesheet" type="text/css" href="/assets/style/main.css">
 <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="/public/css/gpgc_styles.css">
   
 <link rel="shortcut icon" href="/assets/img/favicon.ico" >
-<title> میگیم دیدگاهی متفاوت </title>
+<title> میگیم از دیدگاهی شاید متفاوت </title>
 
-<script src="/assets/script/jquery-3.2.1.min.js"></script>
 <script src="/assets/script/moment.min.js"></script>
 <script src="/assets/script/moment-jalali.js"></script>
 
-<style>
-
-    #icon-bar a:hover {
-        background-color: #eee;
-        color: #712E4D;
-        text-shadow: 0px 0px #eee;
-        transition: all 300ms;
-    }
-    
-    .nav-up-items a:hover {
-        background-color: #eee;
-        color: #33122D;
-        padding-bottom: 3px;
-        transition: all 300ms;
-    }
-    
-    .nav-down-items a:hover {
-        background-color: #eee;
-        color: #712E4D;
-        transition: all 300ms;
-    }
-    
-    .continue-link a {
-        background-color: #712E4D;
-        color: #eee;
-    }
-    
-    .continue-link a:hover {
-        background-color: #eee;
-        color: #712E4D;
-    }
-
-</style>
-
 	</head>
 	<body>
-		<nav id="nav-up" style="background-color: #33122D;">
+				<nav id="nav-up" >
+			<section id="nav-up-left">
+				<div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
+				<div class="nav-up-items"><a href="http://localhost:4000/contact-me">تماس با من</a></div>
+			</section>
+			<div id="cover">
+				<section id="site-title"><a href="http://localhost:4000"><i class="fa fa-space-shuttle"></i>&nbsp;<span>میگیم</span></a></section>
+				<section id="site-discription"><span>از دیدگاهی شاید متفاوت</span></section>
+			</div>
+		</nav>
 
-    <section id="nav-up-right">
-        <div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
-        <div class="nav-up-items"><a href="http://localhost:4000/contact-me">تماس با من</a></div>
-    </section>
+<div class="container">
+	<div class="row">
+		<div class="nine column">
+			<div class="post-container">
+				<div class="post-title"><h2><a href="/is-unity-worth-it.html">آیا یونیتی واقعا ارزش ادامه داشت؟</a></h2></div>
+				    <div class="date">
+					<i class="fa fa-clock-o"></i>
+					<script>
+					    moment.loadPersian();
+					    var date = moment('2017-04-10 00:00:00 +0430', 'YYYY-M-D').format('dddd jD jMMMM jYY');
+					    document.write(date);
 
-    <section id="nav-up-left">
-        <div class="rss"><a href="http://localhost:4000/feed"><i class="fa fa-rss"></i></a></div>
-    </section>
-
-</nav>
-
-<div id="cover" style="background-image: url('/img/4980413_orig.jpg')">
-    <section id="site-title"><a href="http://localhost:4000"><img src="/assets/img/migim-brand.png"></a></section>
-    <section id="site-description">اگر برنامه‌نویس نیستید <i class="fa fa-comments-o" aria-hidden="true"></i> اینجا چیزی نگید <i class="fa fa-blind" aria-hidden="true"></i></section>
-</div>
-
-<nav id="nav-down" style="background-color: #712E4D">
-
-    <section id="nav-down-right">
-        <div class="nav-down-items"><a href="http://localhost:4000/game"><i class="fa fa-gamepad"></i> بازی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/linux"><i class="fa fa-linux"></i> لینوکس</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/photo"><i class="fa fa-camera"></i> عکاسی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/nature"><i class="fa fa-pagelines"></i> طبیعت</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/programming"><i class="fa fa-keyboard-o"></i> برنامه‌نویسی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/design"><i class="fa fa-paint-brush"></i> طراحی</a></div>
-        <div class="nav-down-items"><a href="http://localhost:4000/film"><i class="fa fa-film"></i> فیلم</a></div>
-    </section>
-
-    <section id="nav-down-left">
-
-    </section>
-
-</nav>
-
-<div id="main-bar">
-
-    <h1><a href="/is-unity-worth-it.html">آیا یونیتی واقعا ارزش ادامه داشت؟</a></h1>
-    <div class="date">
-        <i class="fa fa-clock-o"></i>
-        <script>
-            moment.loadPersian();
-            var date = moment('2017-04-10 00:00:00 +0430', 'YYYY-M-D').format('jD jMMMM jYY');
-            document.write(date);
-
-        </script>
-    </div>
-    <br>
-    <p><p>به تازگی یعنی حدودا دو روز پیش خبر خاتمه دادن توسعه برنامه محیط میزکار یونیتی، از طرف تیم توسعه اوبونتو اعلام شد و خب از اونجایی که اوبونتو از اون توزیع‌های خوب و کامل لینوکس هست و بسیار هم محبوب و کاربردی هست، خیلی داغ شد.</p>
+					</script>
+				    </div>
+			    <br>
+			    <p><p>به تازگی یعنی حدودا دو روز پیش خبر خاتمه دادن توسعه برنامه محیط میزکار یونیتی، از طرف تیم توسعه اوبونتو اعلام شد و خب از اونجایی که اوبونتو از اون توزیع‌های خوب و کامل لینوکس هست و بسیار هم محبوب و کاربردی هست، خیلی داغ شد.</p>
 
 <blockquote>
   <p>مباحثی که در این پست بیان میشه، بیشتر بیان نظر شخصی بنده بوده و قصد ناراحتی طرفداران و کاربران هیچ برنامه‌ای رو ندارم</p>
@@ -132,10 +76,14 @@
 <h2 id="نتیجهگیری">نتیجه‌گیری</h2>
 <p>به هر صورت موارد قابل بیان و فنی بسیار هست و دانش بنده هم در حدودای چنین است که عرض کردم  و از دیدگاه یک کاربر محصولات متن‌باز به این نتیجه رسیدم که یونیتی با این محبوبیت کم و طراحی ضعیف از منظر کاربرد، تنها هزینه‌بر و فرسایشی ادامه پیدا می‌کرد و این تصمیم شرکت کنونیکال نشان‌دهنده حرفه‌ای بودن این افراد است تا بتونیم با تمرکز برای یک میزکار فوق‌العاده و توسعه هر چه بهتر اون، دنیای آزاد بهتری رو تجربه کنیم.</p>
 </p>
-    <br>
-    <div class="post-categories">
-  
-  
+			    <br>
+				 <div class="post-categories">
+					  
+					  
+				</div>
+			</div>
+		</div>
+    	</div>
 </div>
 <br>
     
@@ -217,45 +165,15 @@
 
 
 </div>
-<div id="side-bar">
-    <div id="avatar"></div>
-    <section id="bio-header">
-        <h1>محمدرضا مقیمی</h1>
-    </section>
-    <section id="bio-des-one">
-        <h2><i class="fa fa-address-card"> طراح و توسعه‌دهنده نرم‌افزار</i></h2>
-    </section>
-    <section id="aka"><i class="fa fa-user-circle"></i> mimr9</section>
-
-</div>
-<div id="icon-bar" style="background-color: #712E4D;">
-    <a class="tooltip" href="http://github.com/mimr9/"><i class="fa fa-github"><div class="tooltiptext">پروژه‌های من در گیتهاب</div></i></a>
-    <a class="tooltip" href="http://linkedin.com/in/mohammadreza-moghimi/"><i class="fa fa-linkedin-square" ><div class="tooltiptext">رزومه من در لینکدین</div></i></a>
-    <a class="tooltip" href="http://flickr.com/photos/144451464@N04/"><i class="fa fa-flickr" ><div class="tooltiptext">عکس‌های من در فلیکر</div></i></a>
-    <a class="tooltip" href="http://stackoverflow.com/users/5532744/mimr-moghimi/"><i class="fa fa-stack-overflow" ><div class="tooltiptext">پرسش و پاسخ‌های من در استک‌اورفلو</div> </i></a>
-    <a class="tooltip" href="http://codepen.io/mimr9"><i class="fa fa-codepen" ><div class="tooltiptext">کارهای من در سایت کدپن</div></i></a>
-    <a class="tooltip" href="http://gitlab.com/mimr9/"><i class="fa fa-gitlab" ><div class="tooltiptext">پروفایل من در گیت‌لب</div></i></a>
-    <a class="tooltip" href="http://twitter.com/javanevis"><i class="fa fa-twitter-square" ><div class="tooltiptext"> توییت‌های من در توییتر </div></i></a>
-    <a class="tooltip" href="https://addons.mozilla.org/en-US/firefox/user/mimr9/"><i class="fa fa-firefox" ><div class="tooltiptext">پروفایل موزیلا من اگه از فایرفاکس استفاده می‌کنین</div></i></a>
-    <a class="tooltip" href="mailto:mimr.moghimi@gmail.com" target="_top"><i class="fa fa-envelope-open" ><div class="tooltiptext">ایمیل من</div></i></a>
-    <a class="tooltip" href="bitcoin:1AJUPMTt5TJF4KuwQzQV4gqiyLF2XsaCMp"><i class="fa fa-btc" ><div class="tooltiptext">آدرس حساب بیتکوین من</div></i></a>
-    
-
-</div>
-
 
 	</body>
-	<footer id="footer" style="background-color: #33122D;">
-		<script src="/assets/script/script.js"></script>
+	<footer id="footer">
+		<section class="copyleft" style="color: white; font-family: yekan, sans-serif; clear: both; text-align: center; position: relative; bottom: 5px;">
 
-
-
-
-<section class="copyleft" style="color: white; font-family: yekan, sans-serif; clear: both; text-align: center; position: relative; bottom: 5px;">
-
-    <span style="font-size: 18px;">ساخته‌ای برآمده از <a target="_blank" href="http://mimr.ir"><i class="fa fa-heart" style="color: white;"></i></a> به کمک <span><a target="_blank" href="http://jekyllrb.com"><img src="/img/jekyll-brand.svg" style=" width: 70px; height: auto; filter: invert(100); position: relative; top: 10px;"></a></span> و <span><a href="http://github.com" target="_blank"><img src="/assets/img/GitHub_Logo_White.png" style="max-width: 80px;position: relative; top: 10px;"></a></span></span>
+    <span style="font-size: 18px;">ساخته‌ای‌ای برآمده از <a target="_blank" href="http://mimr.ir"><i class="fa fa-heart" style="color: white;"></i></a> به کمک <span><a target="_blank" href="http://jekyllrb.com"><img src="/img/jekyll-brand.svg" style=" width: 70px; height: auto; filter: invert(100); position: relative; top: 10px;"></a></span> و <span><a href="http://github.com" target="_blank"><img src="/assets/img/GitHub_Logo_White.png" style="max-width: 80px;position: relative; top: 10px;"></a></span></span>
 
 </section>
+
 	</footer>
 
 </html>

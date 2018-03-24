@@ -1,434 +1,202 @@
 @font-face { font-family: Gandom;
-    src: url('http://bayanbox.ir/download/8454695626748096635/Gandom.eot') format('eot'),
-    url('http://bayanbox.ir/download/5790948992566611788/Gandom.woff') format('woff'),
-    url('http://bayanbox.ir/download/5505921324431721930/Gandom.ttf') format('truetype');
+    src: url('../font/gandom/Gandom.eot') format('eot'),
+    url('../font/gandom/Gandom.woff') format('woff'),
+    url('../font/gandom/Gandom.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: Lalezar;
+@font-face { font-family: Lalezar;
     src: url('../font/lalezar/Lalezar-Regular.eot') format('eot'),
-         url('../font/lalezar/Lalezar-Regular.woff') format('woff'),
-         url('../font/lalezar/Lalezar-Regular.ttf') format('truetype');
+    url('../font/lalezar/Lalezar-Regular.woff') format('woff'),
+    url('../font/lalezar/Lalezar-Regular.ttf') format('truetype');
 }
 
-@font-face {
-    font-family: 'yekan';
-    src: url('//cdn.bayan.ir/blog/templates/shared/fonts/BYekan.woff?download') format('woff');
-    font-weight: normal;
-    font-style: normal;
+body {
+	background-color: #EEE;
 }
 
-html, body {
-	margin: 0;
-	padding: 0;
-    	width: 100%;
-    	height: 100%;
-}
-
-body p {
-    font-family: yekan, Gandom, sans-serif;
-    font-size: 16px;
-    color: rgba(0,0,0,0.7);
-    margin-right: 10px;
-}
-
-body #main-bar h1 {
-     font-family: yekan, Gandom, sans-serif;
-     color: #2C3E50;
-     font-size: 25px;
-     margin-right: 10px;
-     border-bottom: solid 1px #ddd;
-}
-
-body h1 a {
-    color: #1E824C;
-}
-
-h2, h3, h4, h5, h6 {
-    font-family: yekan, sans-serif;
-}
-
-#nav-up {
-	width: 100%;
-	height: 40px;
+.row img {
+	max-width: 90%;
 	display: block;
+	margin: 10px auto 5px;
 }
 
-#cover {
-	width: 100%;
-	height: 300px;
-	display: block;
-	background-size: contain;
-	background-attachment: fixed;
-    background-repeat: no-repeat;
+.row p {
+	font-size: 18px;
+	color: #5b5b5b;
 }
 
-#nav-down {
-	width: 100%;
-	height: 50px;
-
-}
-
-#avatar {
-	width: 180px;
-	height: 200px;
-	background: url('../img/mimr-prof150wp.svg.png') black no-repeat center;
-    border-radius: 5%;
-    border: solid 1px #eee;
-	display: block;
-	position: relative;
-    margin: auto;
-    top: -120px;
-    z-index: 0.5;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-#main-bar {
-	width: 70%;
-	float: right;
-	padding-right: 10px;
-	padding-left: 10px;
-    box-sizing: border-box;
-    border-left: solid 1px #eee;
-    display: block;
-}
-
-#main-bar img {
-    max-width: 90%;
-    height: auto;
-}
-
-#side-bar {
-	width: 27%;
-	background-color: #eee;
-	display: inline;
-    float: right;
-    position: relative;    
-}
-
-#icon-bar {
-	width: 3%;
-	float: left;
-	display: inline;
-    padding-bottom: 10px;
-    height: 100%;
-    position: relative;
-    bottom: 0;
-    z-index: 0;
-}
-
-#footer {
-     width: 100%;
-     height: auto;
-     clear: both;
-     display: block;
-     padding-bottom: 10px;
-     padding-top: 10px;
-}
-
-#main-bar h1 a {
-     text-decoration: none;
-}
-
-.push {
-    height: 0px;
-    clear: both;
-}
-
-#icon-bar a {
-     text-decoration: none;
-     display: block;
-     text-align: center;
-     font-size: 30px;
-     color: white;
-     box-sizing: border-box;
-     padding: 3px;
-     margin-bottom: 15px;
-     text-shadow: 1px 1px #333;
-     transition: all 300ms ease-in, all 300ms ease-out;
-}
-
-#site-title {
-     font-family: Sogand;
-     font-size: 80px;
-     color: white;
-     display: inline-block;
-     position: relative;
-     top: 80px;
-     right: 35px;
-     padding: 5px;
-}
-
-#site-title a {
-    text-decoration: none;
-    color: white;
-    background: rgba(0, 0, 0, 0.5); 
-    padding-top: 45px;
-}
-
-#site-description {
-     font-family: Lalezar;
-     color: white;
-     display: inline-block;
-     font-size: 30px;
-     position: relative;
-     top: 80px;
-     right: 60px;
-     background: rgba(0, 0, 0, 0.5);   
-}
-
-#bio-header h1 {
-    position: relative;
-    display: block;
-    margin-top: -80px; 
-    font-size: 35px;
-    color: rgba(0, 0, 0, 0.90);
-    font-family: Lalezar, sans-serif;
-    text-align: center;
-    text-shadow: 2px 2px #aaa;
-    margin-bottom: 5px;
-}
-
-#bio-des-one h2 {
-     display: block;
-     font-family: Gandom, sans-serif;
-     font-size: 20px;
-     color: rgba(0, 0, 0, 0.50);
-     text-align: center;
-     margin-top: 5px;
-     
-}
-
-#aka {
-     font-family: Lalezar, sans-serif;
-     font-size: 20px;
-     text-align: center;
-     color: rgba(0, 0, 0, 0.4); 
-}
-
-.date {
-    font-family: yekan, sans-serif;
-    font-size: 14px;
-    color: rgba(0, 70, 0, 0.6);
-    margin-right: 3%;
-    margin-top: -10px;
-}
-
-.persianstat {
-	z-index: -2;
-}
-
-.nav-up-right {
-    display: inline-block;
-}
-
-.nav-up-items {
-    margin: auto;
-    display: inline;
-    
-}
-
-/* upside navbar items */
-
-.nav-up-items a {
-    position: relative;
-    text-decoration: none;
-    color: white;
-    font-family: yekan, sans-serif;
-    font-size: 18px;
-    padding-right: 15px;
-    padding-left: 15px;
-    transition: all 300ms ease-in, all 300ms ease-out;
-    
-}
-
-/* downside navbar items */
-
-.nav-down-items {
-    margin: auto;
-    display: inline;
-    position: relative;
-    top: 7px;
-    right: 10px;
-}
-
-.nav-down-items a {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding-right: 18px;
-    padding-left: 18px;
-    padding-top: 7px;
-    padding-bottom: 5px;
-    color: white;
-    font-family: Lalezar, sans-serif;
-    font-size: 25px;
-    transition: all 300ms ease-in, all 300ms ease-out;
-}
-
-
-/* Tooltip for hover icons */
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip .tooltiptext {
-    box-sizing: border-box;
-    visibility: hidden;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    width: auto;
-    text-align: center;
-    padding: 7px 10px;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1000;
-    font-family: yekan, sans-serif;
-    font-size: 14px;
-    top: 0px;
-    left: 115%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-/* The end of the tooltip part */
-
-.continue {
-    width: 100%;
-    height: 40px;
-}
-
-.continue-link {
-    position: relative;
-    top: 10px;
-    margin: auto 15px;
-    float: left;
-}
-
-.continue-link a {
-    padding: 7px;
-    text-decoration: none;
-    font-family: Lalezar, sans-serif;
-    font-size: 18px;
-    border-radius: 3px;
-    transition: all 300ms ease-in, all 300ms ease-out;
-}
-
-.continue-link a:hover {
-}
-
-.post-categories a {
-    position: relative;
-    right: 15px;
-    font-family: Lalezar, sans-serif;
-    font-size: 17px;
-    text-decoration: none;
-    padding: 7px;
-    background-color: #1E824C;
-    color: white;
-    border-top-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    transition: all 300ms ease-in, all 300ms ease-out;
-}
-
-.post-categories a:hover {
-    background-color: #eee;
-    color: #1e824c;
+p, .date, .pagination, #cover, #nav-up {
+	font-family: Gandom, sans-serif;
 }
 
 blockquote {
+	width: 100%;
+	display: block;
+	margin: 5px auto;
+	
+}
+
+blockquote p {
+    color: black;
+    text-align: center;
+    display: inline-block;
     background: #eee;
     border-radius: 10px;
     padding: 5px;
     color: rgba(0,0,0,0.7);
-}
-
-blockquote p {
     font-family: Gandom, sans-serif;
-    display: inline-block;
-    color: black;
-    
+    margin-bottom: 0px;
 }
 
-.rss {
-    font-size: 18px;
-    float: left;
-    text-decoration: none;
-    position: relative;
-    bottom: 25px;
-    left: 15px;
+.date {
+	color: #AEAEAE;
 }
 
-.rss a {
-    color: white;   
+.date span {
+	padding: 0 5px;
 }
 
-.highlight {
-	padding: 4px;
-	border-radius: 4px;
-	background-color: #dde;
-	display: block;
-	margin: 10px;
-	direction: ltr;
+.post-title {
+	font-weight: bolder;
+	border-bottom: 1px dotted #0EAEDB;
+	font-family: Lalezar, serif;
+	margin-bottom: 5px;
 }
-code {
-		
+
+.post-title a {
+	text-decoration: none;
+     	transition: all 300ms ease-in, all 300ms ease-out;
 }
-/* Animation part of the project */
 
+.post-container {
+	background-color: white;
+	padding: 30px;
+	box-shadow: 5px 5px 3px #ddd;
+	border-radius: 1px;
+}
 
+.button-primary {
+	font-family: Lalezar, sans-serif;
+}
 
-/* For responsive design */
+#nav-up {
+	background-color: #ddd;
+	overflow: hidden;
+	margin-bottom: 20px;
+	box-shadow: 5px 0 3px #444;
+	padding: 10px 10px;
+	box-sizing: border-box;
+}
 
-@media only screen and ( max-width: 1220px ) {
-	#nav-down {
+#nav-up-left {
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 7px;
+}
+
+.nav-up-items {
+	display: inline-block;
+}
+
+.nav-up-items a {
+	text-decoration: none;
+	padding: 10px;
+     	transition: all 300ms ease-in, all 300ms ease-out;
+}
+
+.nav-up-items a:hover {
+	background-color: #33C3F0;
+	color: white;
+}
+
+#cover {
+	display: inline-block;
+	float: right;
+	padding: auto 10px;
+}
+
+#cover #site-title {
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 25px;
+	font-family: Lalezar, sans-serif;
+}
+
+#cover #site-title a {
+	text-decoration: none;
+}
+
+#cover #site-discription {
+	display: inline-block;
+}
+
+@media only screen and ( max-width: 469px ) {
+	#cover #site-discription {
+		display: none;
 	}
+}
 
-	#side-bar {
-		display: block;
-		width: 90%;
-	}
-
-	#icon-bar {
-		display: block;
-		width: 10%;
-	}
-
-	#main-bar {
-		display: block;
-		width: 100%;
-		margin-bottom: 50px;
-	}
-
+@media only screen and ( max-width: 307px ) {
 	#cover {
-		background-size: cover;
+		display: block;
+		text-align: center;
 	}
-
-	#site-description {
-		visibility: hidden;
+	#nav-up-left {
+		display: block;
+		text-align: center;
 	}
-
-	body {
-		overflow-x: hidden;
-	}
-
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: 7px;
 }
 
-@media only screen and ( max-width: 930px ) {
-	#nav-down {
-		visibility: hidden;
-	}
+.nav-up-items {
+	display: inline-block;
+}
 
+.nav-up-items a {
+	text-decoration: none;
+	padding: 10px;
+     	transition: all 300ms ease-in, all 300ms ease-out;
+}
+
+.nav-up-items a:hover {
+	background-color: #33C3F0;
+	color: white;
+}
+
+#cover {
+	display: inline-block;
+	float: right;
+	padding: auto 10px;
+}
+
+#cover #site-title {
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 25px;
+	font-family: Lalezar, sans-serif;
+}
+
+#cover #site-title a {
+	text-decoration: none;
+}
+
+#cover #site-discription {
+	display: inline-block;
+}
+
+@media only screen and ( max-width: 469px ) {
+	#cover #site-discription {
+		display: none;
+	}
+}
+
+@media only screen and ( max-width: 307px ) {
 	#cover {
-		border-bottom: 3px solid green;
+		display: block;
 	}
 }
-
-.pagination {
-	font-family: Gandom, sans-serif;
 }
