@@ -18,6 +18,7 @@ body {
 	max-width: 90%;
 	display: block;
 	margin: 10px auto 5px;
+	border-radius: 5px;
 }
 
 .row p {
