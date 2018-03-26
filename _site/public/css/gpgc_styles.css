@@ -123,10 +123,11 @@
 
 .gpgc-comment {
   margin-top: .8rem;
-  background-color: #eee;
+  background-color: #fafafa;
   border: solid 1px #eee;
-          border-radius: 0px 0px 24px 24px;
-  -webkit-border-radius: 0px 0px 24px 24px;
+          border-radius: 24px 2px 24px 2px;
+  padding-bottom: 10px;
+  box-shadow: 2px 2px 4px #ddd;
 }
 
 .gpgc-comment-header {
