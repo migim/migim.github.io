@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/free-first-speech.html</loc>
+<lastmod>2017-04-06T00:00:00+04:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/is-unity-worth-it.html</loc>
+<lastmod>2017-04-10T00:00:00+04:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/it-is-not-easy.html</loc>
+<lastmod>2017-04-24T00:00:00+04:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/window-view-sky.html</loc>
+<lastmod>2017-12-09T00:00:00+03:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/about</loc>
+</url>
+<url>
+<loc>http://localhost:4000/contact-me</loc>
+</url>
+<url>
+<loc>http://localhost:4000/public/html/gpgc_redirect</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+</urlset>
