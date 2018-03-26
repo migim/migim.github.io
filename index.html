@@ -46,7 +46,26 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="nine column">
+			<div class="four columns">
+				{% for post in site.posts %}
+					<div class="sidebar">
+						<a target="_blank" href="{{ post.url }}"><div class="archive-post">{{ post.title }}<br>
+						    <div class="date">
+							    <span>
+								<i class="fa fa-clock-o"></i>
+								<script>
+								    moment.loadPersian();
+								    var date = moment('{{ post.date }}', 'YYYY-M-D').format('dddd jD jMMMM jYYYY');
+								    document.write(date);
+
+								</script>
+							    </span>
+						    </div>
+						</div></a>
+					</div>
+				{% endfor %}
+			</div>
+			<div class="eight columns">
 				    {% for post in paginator.posts %}
 				<div class="post-container">
 				    <div class="post-title"><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></div>
@@ -85,9 +104,8 @@
 		  {% endif %}
 	    
 	</div>
-		<div class="push"></div>
-		<div id="footer" style="background-color: #{{ page.feet }};">
-		{% include footer.html %}
+		<div id="footer">
+			{% include footer.html %}
 		</div>
 				
 	</body>

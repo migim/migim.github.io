@@ -165,6 +165,7 @@ blockquote p {
 .nav-up-items a:hover {
 	background-color: #33C3F0;
 	color: white;
+	border-radius: 2px;
 }
 
 #cover {
@@ -199,4 +200,25 @@ blockquote p {
 		display: block;
 	}
 }
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
+}
+
+.archive-post {
+
+	padding: 5px 10px;
+	background: linear-gradient(to left, #16222a, #3a6073);
+	margin-bottom: 7px;
+	border-radius: 3px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: white;
 }
