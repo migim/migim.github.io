@@ -10,3 +10,4 @@ pagination_dir: blog
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
