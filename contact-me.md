@@ -45,5 +45,3 @@ feet: '051400'
 
 <h4 style="text-align: center; direction:ltr;font-family: Gandom, sans-serif;"><a href="http://linkedin.com/in/mohammadreza-moghimi/" target=_blank style="text-decoration: none; color: white; background-color: #051400; padding: 10px; border-radius: 4px;" >mohammadreza-moghimi</a></h4>
 <br />
-
-<p><input type="checkbox"> در آخر هم می‌تونین از تمام شبکه‌هایی که آیکنشون توی بخش آیکن‌بار کنار هست ( حتی می‌تونین بیتکوین برام بفرستین و یه ایمیل هدیه بفرستین برام ) برای تماس با من استفاده کنین ولی خب موارد بالا سریع‌تر هستن.

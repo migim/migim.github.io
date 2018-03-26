@@ -33,6 +33,7 @@
 			<section id="nav-up-left">
 				<div class="nav-up-items"><a href="{{ site.url }}/about">درباره من</a></div>
 				<div class="nav-up-items"><a href="{{ site.url }}/contact-me">تماس با من</a></div>
+				<div class="nav-up-items feed"><a href="{{ site.url }}/feed"><i class="fa fa-rss-square"></i></a></div>
 			</section>
 			<div id="cover">
 				<section id="site-title"><a href="{{ site.url }}"><i class="fa fa-space-shuttle"></i>&nbsp;<span>میگیم</span></a></section>
@@ -47,9 +48,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="four columns">
-				{% for post in site.posts %}
+				{% for post in site.posts limit:35 %}
 					<div class="sidebar">
-						<a target="_blank" href="{{ post.url }}"><div class="archive-post">{{ post.title }}<br>
+						<a  href="{{ post.url }}"><div class="archive-post">{{ post.title }}<br>
 						    <div class="date">
 							    <span>
 								<i class="fa fa-clock-o"></i>
@@ -104,12 +105,10 @@
 		  {% endif %}
 	    
 	</div>
-		<div id="footer">
+</div>				
+	<footer>
 			{% include footer.html %}
-		</div>
-				
+	</footer>
 	</body>
     
 </html>
-
-
