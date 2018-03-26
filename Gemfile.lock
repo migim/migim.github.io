@@ -1,7 +1,6 @@
 PATH
   remote: .
   specs:
-    neomigim (0.1.0)
       jekyll (~> 3.6)
 
 GEM
@@ -61,7 +60,6 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-sitemap
-  neomigim!
   rake (~> 10.0)
 
 BUNDLED WITH
