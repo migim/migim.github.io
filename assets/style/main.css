@@ -14,7 +14,7 @@ body {
 	background-color: #EEE;
 }
 
-.row img {
+.post-container img {
 	max-width: 90%;
 	display: block;
 	margin: 10px auto 5px;
@@ -163,7 +163,8 @@ blockquote p {
 }
 
 .nav-up-items a:hover {
-	background-color: #33C3F0;
+	background: linear-gradient(to left, #16222a, #3a6073);
+	box-shadow: 3px 2px 4px #444;
 	color: white;
 	border-radius: 2px;
 }
@@ -216,6 +217,7 @@ blockquote p {
 	background: linear-gradient(to left, #16222a, #3a6073);
 	margin-bottom: 7px;
 	border-radius: 3px;
+	box-shadow: 3px 2px 4px #444;
 }
 
 .sidebar a {
