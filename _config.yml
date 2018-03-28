@@ -4,7 +4,7 @@ title: میگیم از دیدگاهی شاید متفاوت
 url: http://migim.ir
 permalink: /:title.html
 #paginate_path: "/blog/page:num/"
-paginate: 6
+paginate: 5
 pagination_dir: blog
 
 plugins:

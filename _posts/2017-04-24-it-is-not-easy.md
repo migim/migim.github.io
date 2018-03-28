@@ -7,7 +7,7 @@ feel-down: '7C8146'
 feel-icon: '7C8146'
 feel-icon-back: 'eee'
 feet: '5F6051'
-categories: [game, photo, programming, linux, design, film, nature]
+categories: [personal, photo, programming, linux, design]
 
 ---
 
