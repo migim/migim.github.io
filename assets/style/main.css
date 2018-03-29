@@ -33,8 +33,15 @@ p, .date, .pagination, #cover, #nav-up {
 blockquote {
 	width: 100%;
 	display: block;
-	margin: 5px auto;
-	
+	margin: 10px auto;
+	text-align: center;	
+}
+
+blockquote p:before {
+	font-family: FontAwesome;
+	content: "\f10e";
+	text-align: center;
+	padding-left: 10px;
 }
 
 blockquote p {
@@ -43,7 +50,7 @@ blockquote p {
     display: inline-block;
     background: #eee;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     color: rgba(0,0,0,0.7);
     font-family: Gandom, sans-serif;
     margin-bottom: 0px;
@@ -333,6 +340,10 @@ footer .row span {
 		display: none;
 	}
 
+	.category-nav {
+		position: unset;
+	}
+
 	.category-item {
 		display: block;
 		text-align: center;
@@ -346,7 +357,6 @@ footer .row span {
 		color: black;
 		box-shadow: none;
 	}
-
 }
 
 @media only screen and ( max-width: 469px ) {
