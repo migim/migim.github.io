@@ -154,21 +154,18 @@ blockquote p {
 
 .nav-up-items {
 	display: inline-block;
-	color: white;
 }
 
 .nav-up-items a {
 	text-decoration: none;
 	padding: 10px;
-     	transition: all 300ms ease-in, all 300ms ease-out;
 	color: white;
 }
 
 .nav-up-items a:hover {
-	background: linear-gradient(to left, #16222a, #3a6073);
-	box-shadow: 3px 2px 4px #444;
-	color: white;
-	border-radius: 2px;
+	border-bottom: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	border-radius: 50%;
 }
 
 #cover {
