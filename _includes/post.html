@@ -82,7 +82,7 @@
 					    {% assign tagies = page.tags %}
 					  {% endif %}
 					  {% for tag in tagies %}
-					  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"><i class="fa fa-tag" ></i>  {{tag}}</a>
+					  <!-- <a href="{{site.baseurl}}/tags/#{{tag|slugize}}"> --><i class="fa fa-tag" ></i>  {{tag}}<!-- </a> -->
 					  {% unless forloop.last %}&nbsp;{% endunless %}
 					  {% endfor %}
 				</div>

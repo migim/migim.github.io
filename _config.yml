@@ -1,5 +1,16 @@
 theme: neomigim
-title: میگیم از دیدگاهی شاید متفاوت
+title: میگیم 
+description: از دیدگاهی شاید متفاوت
+author: محمدرضا مقیمی
+logo: /assets/img/mimr-prof150wp.svg.png
+lang: fa_IR
+
+social:
+        name: میگیم
+        links:
+                - http://github.com/mimr9
+                - http://yourshot.nationalgeographic.com/profile/1501852/
+                - https://www.linkedin.com/in/mohammadreza-moghimi/
 
 url: http://migim.ir
 permalink: /:title.html
@@ -11,3 +22,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
