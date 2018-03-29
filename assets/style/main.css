@@ -160,12 +160,72 @@ blockquote p {
 	text-decoration: none;
 	padding: 10px;
 	color: white;
+	transition: all 500ms ease-in, all 400ms ease-out;
 }
 
 .nav-up-items a:hover {
-	border-bottom: 2px solid #ddd;
-	border-right: 2px solid #ddd;
-	border-radius: 50%;
+	border-radius: 2px;
+	box-shadow: 3px 3px 5px black;
+	border: 1px solid black;
+}
+
+#cover #site-title a {
+	text-decoration: none;
+}
+
+#cover #site-discription {
+	display: inline-block;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+
+  border-right:10px solid blue;
+}
+
+.archive-post {
+
+	padding: 5px 10px;
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+	margin-bottom: 7px;
+	border-radius: 3px;
+	box-shadow: 3px 2px 4px #444;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	margin-top: 40px;
+	width: 100%;
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+	margin-bottom: 7px;
+	position: absolute;
+	left: 0;
+	padding: 20px 10px 20px;
+	box-sizing: border-box;
+	box-shadow: -2px 2px 4px #ddd;
+}
+
+footer .row {
+	text-align: center;
+	font-family: Gandom, sans-serif;
+}
+
+footer .row .two {
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	color: white;
+     	transition: all 300ms ease-in, all 300ms ease-out;
+}
+
+footer .row .two:
 }
 
 #cover {
