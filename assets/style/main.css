@@ -160,13 +160,13 @@ blockquote p {
 	text-decoration: none;
 	padding: 10px;
 	color: white;
-	transition: all 500ms ease-in, all 400ms ease-out;
+	transition: all 800ms ease-in, all 400ms ease-out;
 }
 
 .nav-up-items a:hover {
-	border-radius: 2px;
-	box-shadow: 3px 3px 5px black;
-	border: 1px solid black;
+	border-radius: 3px;
+	box-shadow: 1px 0 4px black;
+	background: linear-gradient(to right, #0f0c29, #24243e);
 }
 
 #cover #site-title a {
