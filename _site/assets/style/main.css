@@ -71,6 +71,10 @@ blockquote p {
 	margin-bottom: 5px;
 }
 
+.post-title h1 {
+	font-size: 4.2rem;
+}
+
 .post-title a {
 	text-decoration: none;
      	transition: all 300ms ease-in, all 300ms ease-out;
