@@ -78,6 +78,7 @@ blockquote p {
 .post-title a {
 	text-decoration: none;
      	transition: all 300ms ease-in, all 300ms ease-out;
+	color: #302b63;
 }
 
 .post-container {
@@ -92,10 +93,12 @@ blockquote p {
 }
 
 #nav-up {
-	background-color: #ddd;
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 	overflow: hidden;
 	padding: 10px 10px;
 	box-sizing: border-box;
+	color: white;
+	border-bottom: 1px dashed white;
 }
 
 #nav-up-left {
@@ -106,10 +109,10 @@ blockquote p {
 }
 
 .category-nav {
-	background: linear-gradient(to left, #16222a, #3a6073);
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 	overflow: hidden;
 	margin-bottom: 20px;
-	box-shadow: 3px 0px 3px #444;
+	box-shadow: 0px 1px 3px #444;
 	box-sizing: border-box;
 	position: sticky;
 	top: 0;
@@ -151,12 +154,14 @@ blockquote p {
 
 .nav-up-items {
 	display: inline-block;
+	color: white;
 }
 
 .nav-up-items a {
 	text-decoration: none;
 	padding: 10px;
      	transition: all 300ms ease-in, all 300ms ease-out;
+	color: white;
 }
 
 .nav-up-items a:hover {
@@ -177,10 +182,12 @@ blockquote p {
 	margin-left: 25px;
 	font-size: 25px;
 	font-family: Lalezar, sans-serif;
+	color: white;
 }
 
 #cover #site-title a {
 	text-decoration: none;
+	color: white;
 }
 
 #cover #site-discription {
@@ -218,7 +225,7 @@ blockquote p {
 .archive-post {
 
 	padding: 5px 10px;
-	background: linear-gradient(to left, #16222a, #3a6073);
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 	margin-bottom: 7px;
 	border-radius: 3px;
 	box-shadow: 3px 2px 4px #444;
@@ -232,7 +239,7 @@ blockquote p {
 footer {
 	margin-top: 40px;
 	width: 100%;
-	background: linear-gradient(to left, #16222a, #3a6073);
+	background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 	margin-bottom: 7px;
 	position: absolute;
 	left: 0;

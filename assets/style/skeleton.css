@@ -208,8 +208,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
+  transition: all 300ms ease-in, all 300ms ease-out;
+  background-color: #302b63; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
