@@ -23,7 +23,7 @@
 <loc>http://localhost:4000/contact-me</loc>
 </url>
 <url>
-<loc>http://localhost:4000/category/design</loc>
+<loc>http://localhost:4000/category/film</loc>
 </url>
 <url>
 <loc>http://localhost:4000/public/html/gpgc_redirect</loc>
@@ -41,6 +41,6 @@
 <loc>http://localhost:4000/category/photo</loc>
 </url>
 <url>
-<loc>http://localhost:4000/category/programming</loc>
+<loc>http://localhost:4000/category/software</loc>
 </url>
 </urlset>
