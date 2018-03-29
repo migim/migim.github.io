@@ -331,16 +331,16 @@ footer .row span {
 	}
 }
 
-@media only screen and ( max-width: 508px ) {
-	#cover #site-discription {
-		display: none;
+@media only screen and ( max-width: 720px ) {
+	.category-item a { 
+		display: block;
+		padding: 0;
 	}
 
-	.feed {
-		display: none;
-	}
+}
 
-	.category-nav {
+@media only screen and ( max-width: 548px ) {
+		.category-nav {
 		position: unset;
 	}
 
@@ -357,6 +357,17 @@ footer .row span {
 		color: black;
 		box-shadow: none;
 	}
+}
+
+@media only screen and ( max-width: 508px ) {
+	#cover #site-discription {
+		display: none;
+	}
+
+	.feed {
+		display: none;
+	}
+
 }
 
 @media only screen and ( max-width: 469px ) {
