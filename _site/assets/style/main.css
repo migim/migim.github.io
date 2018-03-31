@@ -377,6 +377,39 @@ footer .row span {
 	box-shadow: 0px 2px 4px #ddd;
 }
 
+.portrait {
+	display: block;
+	margin: 10px auto;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+.shift p {
+	top: 35px; 
+	position: relative;
+	box-shadow: 2px 2px 4px #ddd; 
+	background-color: white;
+}
+
+#about-me {
+	background: url("../img/about-me.jpeg");
+	width: 100%;
+	height: 400px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.fogy {	
+	background: url("../img/fogie-jungle.jpeg");
+	display: block;
+	margin: 5px auto;
+	width: 95%;
+	height: 200px;
+	border-radius: 3px;
+	background-attachment: contain;
+	background-repeat: none;
+}
+
 @media only screen and ( max-width: 1077px ) {
 	#second {
 		margin-right: 5px;
@@ -397,12 +430,20 @@ footer .row span {
 		clear: both;
 		width:100%;
 	}
+
+	.shift p {
+		position: unset;
+	}
 }
 
 @media only screen and ( max-width: 720px ) {
 	.category-item a { 
 		display: block;
 		padding: 0;
+	}
+
+	.fogy {
+		display: none;
 	}
 
 }

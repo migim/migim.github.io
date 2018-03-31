@@ -13,6 +13,7 @@ feet: '051400'
 ---
 راه‌های تماس با من بسیار زیاد هست. هر کدوم رو که می‌پسندین انتخاب کنین. حالا قصدتون هر چی که هست:
 <br />
+<br />
 <input type="checkbox" checked="">تهدید
 <br />
 <input type="checkbox" checked=""> تشویق
@@ -33,15 +34,19 @@ feet: '051400'
 <br />
 <input type="checkbox" checked=""> پیشنهاد و ...
 <br />
+<br />
 هر جور که راحتین می‌تونین یکی از روش‌های زیر رو برای ارتباط با من استفاده کنین:
 <br /><br />
-<input type="checkbox"> به من ایمیل بزنید:
-<h4 style="text-align: center; font-family: Gandom, sans-serif;"><a href="mailto:mimr.moghimi@gmail.com?subject=تماس با محمدرضا مقیمی" style="text-decoration: none; color: white; background-color: #051400; padding: 10px; border-radius: 4px; " target="_blank" > mimr.moghimi@gmail.com</a></h4>
+<i class="fa fa-envelope"></i>
+ به من ایمیل بزنید:
+<h4 style="text-align: center; font-family: Gandom, sans-serif;"><a href="mailto:mimr.moghimi@gmail.com?subject=تماس با محمدرضا مقیمی" style="text-decoration: none; color: white; background-color: #24243e; padding: 10px; border-radius: 4px; " target="_blank" > mimr.moghimi@gmail.com</a></h4>
 <br />
- <p><input type="checkbox">به آی‌دی من روی تلگرام پیام بفرستین:</p>
-<h4 style="text-align: center; direction:ltr;font-family: Gandom, sans-serif;"><a href="https://t.me/mimr9" style="text-decoration: none; color: white; background-color: #051400; padding: 10px; border-radius: 4px;" target=_blank >@mimr9</a></h4>
-<br />
-<p><input type="checkbox">روی لینکدین بهم پیام بدین:</p>
 
-<h4 style="text-align: center; direction:ltr;font-family: Gandom, sans-serif;"><a href="http://linkedin.com/in/mohammadreza-moghimi/" target=_blank style="text-decoration: none; color: white; background-color: #051400; padding: 10px; border-radius: 4px;" >mohammadreza-moghimi</a></h4>
+ <p><i class="fa fa-location-arrow"></i> به آی‌دی من روی تلگرام پیام بفرستین:</p>
+<h4 style="text-align: center; direction:ltr;font-family: Gandom, sans-serif;"><a href="https://t.me/mimr9" style="text-decoration: none; color: white; background-color: #24243e; padding: 10px; border-radius: 4px;" target=_blank >@mimr9</a></h4>
+<br />
+
+<p><i class="fa fa-linkedin"></i> روی لینکدین بهم پیام بدین:</p>
+
+<h4 style="text-align: center; direction:ltr;font-family: Gandom, sans-serif;"><a href="http://linkedin.com/in/mohammadreza-moghimi/" target=_blank style="text-decoration: none; color: white; background-color: #24243e; padding: 10px; border-radius: 4px;" >mohammadreza-moghimi</a></h4>
 <br />

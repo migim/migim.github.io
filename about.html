@@ -1,48 +1,22 @@
+---
+
+---
+
 <!DOCTYPE html>
 <html dir=rtl lang="fa">
 <head>
-	<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<link rel="stylesheet" type="text/css" href="/assets/style/normalize.css">
-<link rel="stylesheet" type="text/css" href="/assets/style/skeleton.css">
-<link rel="stylesheet" type="text/css" href="/assets/style/main.css">
-<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="/public/css/gpgc_styles.css">
-  
-<link rel="shortcut icon" href="/assets/img/favicon.ico" >
-
-<script src="/assets/script/moment.min.js"></script>
-<script src="/assets/script/moment-jalali.js"></script>
-
-<!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>میگیم | از دیدگاهی شاید متفاوت</title>
-<meta name="generator" content="Jekyll v3.6.2" />
-<meta property="og:title" content="میگیم" />
-<meta name="author" content="محمدرضا مقیمی" />
-<meta property="og:locale" content="fa_IR" />
-<meta name="description" content="از دیدگاهی شاید متفاوت" />
-<meta property="og:description" content="از دیدگاهی شاید متفاوت" />
-<link rel="canonical" href="http://localhost:4000/about" />
-<meta property="og:url" content="http://localhost:4000/about" />
-<meta property="og:site_name" content="میگیم" />
-<script type="application/ld+json">
-{"@type":"WebPage","headline":"میگیم","url":"http://localhost:4000/about","author":{"@type":"Person","name":"محمدرضا مقیمی"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/mimr-prof150wp.svg.png"},"name":"محمدرضا مقیمی"},"description":"از دیدگاهی شاید متفاوت","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
+	{% include head.html %}
 </head>
 <body>
 	
 		<nav id="nav-up" >
 			<section id="nav-up-left">
-				<div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
-				<div class="nav-up-items"><a href="http://localhost:4000/contact-me">تماس با من</a></div>
-				<div class="nav-up-items feed"><a href="http://localhost:4000/feed"><i class="fa fa-rss-square"></i></a></div>
+				<div class="nav-up-items"><a href="{{ site.url }}/about">درباره من</a></div>
+				<div class="nav-up-items"><a href="{{ site.url }}/contact-me">تماس با من</a></div>
+				<div class="nav-up-items feed"><a href="{{ site.url }}/feed"><i class="fa fa-rss-square"></i></a></div>
 			</section>
 			<div id="cover">
-				<section id="site-title"><a href="http://localhost:4000"><i class="fa fa-space-shuttle"></i>&nbsp;<span>میگیم</span></a></section>
+				<section id="site-title"><a href="{{ site.url }}"><i class="fa fa-space-shuttle"></i>&nbsp;<span>میگیم</span></a></section>
 				<section id="site-discription"><span>از دیدگاهی شاید متفاوت</span></section>
 			</div>
 		</nav>
@@ -185,62 +159,7 @@
 
 
 	<footer>
-			<div class="container">
-	<div class="row">
-		<a target="_blank" href="https://github.com/mimr9">
-			<section class="two columns" >
-				<i class="fa fa-github"></i>
-				<br>
-				<span>گیت‌هاب</span>
-			</section>
-		</a>
-		<a target="_blank" href="https://www.linkedin.com/in/mohammadreza-moghimi/">
-			<section class="two columns" >
-				<i class="fa fa-linkedin"></i>
-				<br>
-				<span>لینکدین</span>
-			</section>
-		</a>
-		<a target="_blank" href="mailto:mimr.moghimi@gmail.com">
-			<section class="two columns" >
-				<i class="fa fa-envelope"></i>
-				<br>
-				<span>ایمیل</span>
-			</section>
-		</a>
-		<a target="_blank" href="https://Zarinp.al/171403">
-			<section class="two columns" >
-				<i class="fa fa-credit-card"></i>
-				<br>
-				<span>حمایت</span>
-			</section>
-		</a>
-		<a target="_blank" href="https://jobinja.ir/user/mimr9">
-			<section class="two columns" >
-				<i class="fa fa-address-book"></i>
-				<br>
-				<span>رزومه</span>
-			</section>
-		</a>
-		<a target="_blank" href="http://yourshot.nationalgeographic.com/profile/1501852/">
-			<section class="two columns" >
-				<i class="fa fa-camera"></i>
-				<br>
-				<span>عکس‌ها</span>
-			</section>
-		</a>
-	</div>
-</div>
-
-<section id="second">
-	<div class="feet">
-		<span>ساخته‌ای برآمده از <i class="fa fa-heart"></i> به کمک <a target="_blank" href="http://github.com">Github</a> و <a target="_blank" href="http://jekyllrb.com">Jekyll</a></span>
-	</div>
-	<div class="fet">
-		<p><a target="_blank" href="https://www.gnu.org/copyleft/fdl.html"><img src="../assets/img/GFDL_Logo.svg" ></a> مطالب این وبلاگ تحت مجوز مستندات آزاد گنو منتشر می‌شود</p>
-	</div>	
-</section>
-
+			{% include footer.html %}
 	</footer>
 </body>
 </html>
