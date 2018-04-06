@@ -21,6 +21,10 @@
 <lastmod>2018-04-02T00:00:00+04:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux.html</loc>
+<lastmod>2018-04-06T00:00:00+04:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about</loc>
 </url>
 <url>
@@ -46,5 +50,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/category/software</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>

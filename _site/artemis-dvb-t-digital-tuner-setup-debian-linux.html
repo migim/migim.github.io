@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html dir=rtl lang="fa">
+
+    <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+    <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+    <!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+    <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+    
+	<head>
+		<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="/assets/style/normalize.css">
+<link rel="stylesheet" type="text/css" href="/assets/style/skeleton.css">
+<link rel="stylesheet" type="text/css" href="/assets/style/main.css">
+<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/public/css/gpgc_styles.css">
+  
+<link rel="shortcut icon" href="/assets/img/favicon.ico" >
+
+<script src="/assets/script/moment.min.js"></script>
+<script src="/assets/script/moment-jalali.js"></script>
+
+<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>نصب گیرنده دیجیتال بر روی دبیان لینوکس | میگیم</title>
+<meta name="generator" content="Jekyll v3.6.2" />
+<meta property="og:title" content="نصب گیرنده دیجیتال بر روی دبیان لینوکس" />
+<meta name="author" content="محمدرضا مقیمی" />
+<meta property="og:locale" content="fa_IR" />
+<meta name="description" content="مدت‌ها بود که دنبال یک گیرنده دیجیتال بودم تا بتوانم بر روی دبیان تلویزیون نگاه کنم و برنامه‌های جالب شبکه مستند را ضبط کنم. با کلی جستجو در گوگل و فروشگاه‌های آنلاین برای کسب اطلاعات و خرید یک گیرنده دیجیتال بالاخره موفق به خرید از دیجیکالا نشدم و این محصول حالا به هر دلیلی تا زمان خرید بنده عرضه نشد، تا این که در حین گردش در بازار کامپیوتر و قطعات سخت‌افزاری موفق به خرید یک گیرنده دیجیتال یا (DVB-T)، محصول شرکت آرتمیس شدم:" />
+<meta property="og:description" content="مدت‌ها بود که دنبال یک گیرنده دیجیتال بودم تا بتوانم بر روی دبیان تلویزیون نگاه کنم و برنامه‌های جالب شبکه مستند را ضبط کنم. با کلی جستجو در گوگل و فروشگاه‌های آنلاین برای کسب اطلاعات و خرید یک گیرنده دیجیتال بالاخره موفق به خرید از دیجیکالا نشدم و این محصول حالا به هر دلیلی تا زمان خرید بنده عرضه نشد، تا این که در حین گردش در بازار کامپیوتر و قطعات سخت‌افزاری موفق به خرید یک گیرنده دیجیتال یا (DVB-T)، محصول شرکت آرتمیس شدم:" />
+<link rel="canonical" href="http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux.html" />
+<meta property="og:url" content="http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux.html" />
+<meta property="og:site_name" content="میگیم" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-04-06T00:00:00+04:30" />
+<script type="application/ld+json">
+{"datePublished":"2018-04-06T00:00:00+04:30","description":"مدت‌ها بود که دنبال یک گیرنده دیجیتال بودم تا بتوانم بر روی دبیان تلویزیون نگاه کنم و برنامه‌های جالب شبکه مستند را ضبط کنم. با کلی جستجو در گوگل و فروشگاه‌های آنلاین برای کسب اطلاعات و خرید یک گیرنده دیجیتال بالاخره موفق به خرید از دیجیکالا نشدم و این محصول حالا به هر دلیلی تا زمان خرید بنده عرضه نشد، تا این که در حین گردش در بازار کامپیوتر و قطعات سخت‌افزاری موفق به خرید یک گیرنده دیجیتال یا (DVB-T)، محصول شرکت آرتمیس شدم:","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux.html"},"url":"http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux.html","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/mimr-prof150wp.svg.png"},"name":"محمدرضا مقیمی"},"author":{"@type":"Person","name":"محمدرضا مقیمی"},"headline":"نصب گیرنده دیجیتال بر روی دبیان لینوکس","dateModified":"2018-04-06T00:00:00+04:30","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+	</head>
+	<body>
+				<nav id="nav-up" >
+			<section id="nav-up-left">
+				<div class="nav-up-items"><a href="http://localhost:4000/about">درباره من</a></div>
+				<div class="nav-up-items"><a href="http://localhost:4000/contact-me">تماس با من</a></div>
+				<div class="nav-up-items feed"><a href="http://localhost:4000/feed"><i class="fa fa-rss-square"></i></a></div>
+			</section>
+			<div id="cover">
+				<section id="site-title"><a href="http://localhost:4000"><i class="fa fa-space-shuttle"></i>&nbsp;<span>میگیم</span></a></section>
+				<section id="site-discription"><span>از دیدگاهی شاید متفاوت</span></section>
+			</div>
+		</nav>
+
+
+		<div class="category-nav">
+			<div class="container">
+				<div class="row">
+					<div class="three columns">
+						<div class="category-item">
+							<a href="/category/software.html">
+							<i class="fa fa-sitemap"></i>	
+							نرم‌افزار
+							</a>
+						</div>
+					</div>
+					<div class="two columns">
+						<div class="category-item">
+							<a href="/category/linux.html">
+							<i class="fa fa-linux"></i>
+							لینوکس
+							</a>
+						</div>
+					</div>
+					<div class="two columns">
+						<div class="category-item">
+							<a href="/category/photo.html">
+							<i class="fa fa-camera-retro"></i>
+							عکاسی
+							</a>
+						</div>
+					</div>
+					<div class="two columns">
+						<div class="category-item">
+							<a href="/category/film.html">
+								<i class="fa fa-film"></i>
+								فیلم
+							</a>
+						</div>
+					</div>
+					<div class="two columns">
+						<div class="category-item">
+							<a href="/category/personal.html">
+								<i class="fa fa-book"></i>
+							شخصی
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div class="container">
+	<div class="row">
+		<div class="nine column">
+			<div class="post-container">
+				<div class="post-title"><h2><a href="/artemis-dvb-t-digital-tuner-setup-debian-linux.html">نصب گیرنده دیجیتال بر روی دبیان لینوکس</a></h2></div>
+				    <div class="date">
+					<i class="fa fa-clock-o"></i>
+					<script>
+					    moment.loadPersian();
+					    var date = moment('2018-04-06 00:00:00 +0430', 'YYYY-M-D').format('dddd jD jMMMM jYY');
+					    document.write(date);
+
+					</script>
+				    </div>
+			    <br>
+			    <p><p>مدت‌ها بود که دنبال یک گیرنده دیجیتال بودم تا بتوانم بر روی دبیان تلویزیون نگاه کنم و برنامه‌های جالب شبکه مستند را ضبط کنم. با کلی جستجو در گوگل و فروشگاه‌های آنلاین برای کسب اطلاعات و خرید یک گیرنده دیجیتال بالاخره موفق به خرید از دیجیکالا نشدم و این محصول حالا به هر دلیلی تا زمان خرید بنده عرضه نشد، تا این که در حین گردش در بازار کامپیوتر و قطعات سخت‌افزاری موفق به خرید یک گیرنده دیجیتال یا <a href="https://en.wikipedia.org/wiki/DVB-T">(DVB-T)</a>، محصول شرکت آرتمیس شدم:
+<br /></p>
+
+<p><img src="../assets/img/post/dvb-usbStick.JPG" alt="گیرنده دیجیتال آرتمیس artemis" /></p>
+
+<p>در مدتی که در حال جستجو و مطالعه درباره‌ی گیرنده‌های دیجیتال و نصب آن‌ها بودم، اطلاعات خوب و مفیدی از نحوه نصب این دستگاه‌ها به دست آورده بودم اما با این حال هر دستگاه معمولا فرم‌ورهای و درایور خاص خود را پشتیبانی می‌کنند و به همین دلیل به نظرم آمد که کارم سخت شده، با این حال این گیرنده همراه خود سی‌دی درایور‌ها و ابزارهای خود را در بسته‌بندی داشت و معمولا شرکت‌ها از ویندوز به عنوان محبوب‌ترین سیستم‌عامل پشتیبانی می‌کنند اما در کمال تعجب دیدم که دایرکتوری لینوکس در محتویات این سی‌دی وجود داشت که در آن کد منبع درایور و همینطور فرم‌ور این گیرنده وجود داشت و نیاز به کامپایل داشت:
+<br /></p>
+
+<p><img src="../assets/img/post/dvb-disk.JPG" alt="سی‌دی گیرنده دیجیتال آرتمیس artemis" /></p>
+
+<p>اما نگران نباشید، نام سخت‌افزار این گیرنده <a href="https://www.linuxtv.org/wiki/index.php/ITE_IT9135">ITE9135 </a> می‌باشد و فرم‌ور مورد نیاز آن در بسته‌ی <a href="https://packages.debian.org/jessie-backports/firmware-misc-nonfree">firmware-misc-nonfree </a> می‌باشد که با اجرای دستور زیر می‌توانید آن را نصب کنید :</p>
+
+<p><code style="display: block; direction: ltr">
+sudo apt install firmware-misc-nonfree
+</code></p>
+
+<p>و همانطور که می‌بینید، این بسته جزوی از مخزن غیر آزاد یا nonfree در مخازن دبیان است و شما می‌بایست در فایل <span dir="ltr">/etc/source.list</span> خود این <a href="https://wiki.debian.org/SourcesList">کامپوننت</a>  را اضافه کنید و
+پس از نصب سیستم خود را برای بارگذاری فرم‌ورها ری‌استارت کنید.</p>
+
+<p>در کنار دستگاه گیرنده، محتوایت دیگر از جمله آنتن همراه و کنترل از راه دور که در عکس نیست و به همراه یک مبدل سیم <a href="https://fa.wikipedia.org/wiki/%DA%A9%D8%A7%D8%A8%D9%84_%DA%A9%D9%88%D8%A7%DA%A9%D8%B3%DB%8C%D8%A7%D9%84">کواکسیال</a> وجود داشت:
+<br /></p>
+
+<p><img src="../assets/img/post/dvb-assets.JPG" alt="ابزار و محتویات همراه گیرنده دیجیتال آرتمیس artemis" />
+<img src="../assets/img/post/dvb-usb.JPG" alt="مبدل کواکسیال گیرنده دیجیتال آرتمیس artemis" /></p>
+
+<p>در تهران یا شهرهایی چون مشهد شاید، اما در مازندران نمی‌شود از آنتن کوچک همراه دستگاه استفاده کرد چرا که سیگنال آنتن‌های فرستنده آنچنان قدرتمند نیست و به همین دلیل آنتنی هوایی باید خرید و من هم آنتن سیماران را انتخاب کردم چرا که ابزارهای مورد نیاز از جمله بوستر تقویت کننده سیگنال را هم به همراه داشت:
+<br /></p>
+
+<p><img src="../assets/img/post/dvb-antenna.jpg" alt="آنتن هوایی سیماران simaran antenna" /></p>
+
+<p>پس از نصب آنتن هوایی و اتصال سیم‌ها به بوستر و نصب فیش سیم کواکسیال به مبدل گیرنده دیجیتال، کارهای سخت‌افزاری‌ام به پایان رسید. حال برای تایید درستی کارکرد گیرنده دیجیتال و قبل از اتصال usb به پورت سیستم خود می‌توانید با اجرای دستور زیر از اتصال موفقیت آمیز گیرنده و شناسایی آن توسط دستگاه مطمئن شوید:</p>
+
+<p><code style="display: block; direction: ltr">
+sudo tail -f /var/log/syslog
+</code></p>
+
+<p>حال با اتصال گیرنده به پورت usb، متوجه پیامی در خروجی ترمینال خود می‌شوید:
+<br /></p>
+
+<p><img src="../assets/img/post/dvb-connect.png" alt="اتصال موفق گیرنده دیجیتال به لینوکس دبیان" /></p>
+
+<p>در این مرحله نیاز به نصب یک کلاینت داریم تا بتوانیم شبکه‌ها را جست‌جو کرده و لیست کانال‌های تلویزیونی را ذخیره و برنامه‌ها را مشاهده کنیم. برای جستجو یا لیست کردن ابزار‌های تحت ترمینال وجود دارد و همینطور برنامه‌های گرافیکی مختلف اما انتخاب من برنامه‌ی کافئین ( <a href="https://packages.debian.org/stretch/kaffeine">Kaffeine</a> ) هست.
+<br /></p>
+
+<p><code style="display: block; direction: ltr">
+sudo apt install kaffeine
+</code></p>
+
+<p>پس از نصب برنامه را اجرا کنید و به مسیر زیر در منوی اصلی بالای برنامه بروید:
+<br /></p>
+
+<p><code style="display: block; direction: ltr">
+Television &gt; Configure Television ... &gt; Device 1
+</code></p>
+
+<p>سپس به شکل زیر می‌توانیم تنظیم کنید:
+<br /></p>
+
+<p><img src="../assets/img/post/dvb-config-television.png" alt="تنظیمات کافئین برای گیرنده دیجیتال" /></p>
+
+<p>و بر روی دکمه ok کلیک کنید. حال وقت آن رسیده که برای جست‌و‌جوی کانال‌ها اقدام کنیم و باید به مسیر زیر رفت:
+<br /></p>
+
+<p><code style="display: block; direction: ltr">
+Television &gt; Channels
+</code></p>
+
+<p><br /></p>
+
+<p><img src="../assets/img/post/dvb-kaffeine-channels.png" alt="اسکن کانال‌های کافئین برای گیرنده دیجیتال" /></p>
+
+<p>حال بر روی دکمه Start Scan کلیک کنید تا کانال‌های تلویزیونی را جست‌جو کند اما در عکس بالا می‌بینید که من اسکن کردم و لیست کانال‌ها را شخصی‌سازی کرده و ذخیره کردم. حال کار ما تمام شده و با کلیک بر روی اسم کانال‌ها این شبکه‌های تلویزیونی را به صورت یک جریان زنده بر روی سیستم لینوکس خود تماشا کنید :
+<br /></p>
+
+<p><img src="../assets/img/post/dvb-kaffeine.png" alt="نصب گیرنده دیجیتال تلویزیون بر روی لینوکس" /></p>
+
+<p>در این قسمت هم برای مطالعه و یا جست‌جوی بیشتر لینک‌های مشابه از وبلاگ‌های دیگر دوستان گیکی و ویکی‌های لینوکس قرار می‌دهم تا هم تشکری به تلاش دوستان عزیز باشد و هم کمک افزایش دانش خواننده علاقمند بلاگم:
+<br /></p>
+
+<p>مطالب مشابه دوستان گیکی:</p>
+<ul>
+  <li><a href="http://freegeek.ir/1393/03/setup-xvision4100-dvbt-on-gnu-linux/"> ده گام تا راه اندازی گیرنده دیجیتالی ایکس‌ویژن … |  گیک آزاد
+</a></li>
+  <li><a href="https://jalil.me/posts/8/%D8%AA%D9%85%D8%A7%D8%B4%D8%A7%DB%8C-%D8%AA%D9%84%D9%88%DB%8C%D8%B2%DB%8C%D9%88%D9%86-%D8%A8%D8%A7-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-DVB-T-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3">تماشای تلویزیون با استاندارد DVB-T در لینوکس</a></li>
+</ul>
+
+<p>منابع ویکی‌های لینوکس:</p>
+
+<ul>
+  <li><a href="https://wiki.debian.org/USB-DVBT%20Stick?highlight=%28dvb%29">ویکی دبیان</a></li>
+  <li><a href="https://wiki.gentoo.org/wiki/TV_Tuner">ویکی جنتو</a></li>
+  <li><a href="https://wiki.archlinux.org/index.php/DVB-T">ویکی آرچ</a></li>
+</ul>
+
+<p>در پایان هم خیلی علاقه‌مند هستم تا نظرات و بازخوردهای شما خواننده‌های را در مورد این مطلب و چه اصلاح یا چه در مورد کمکی که بهتون در حل مشکلی کرد بدانم پس از این به بعد را شما شروع کنین:</p>
+</p>
+			    <br>
+				 <div class="post-categories">
+					  
+					  
+				</div>
+			</div>
+		</div>
+    	</div>
+</div>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="column">
+		    
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_all_comments">
+</div>
+
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_no_comments">
+  <p class="gpgc-centered-text">هنوز نظری ثبت نشد</p>
+</div>
+
+<div class="gpgc-actions gpgc-hidden gpgc-color-theme" id="gpgc_actions">
+  <span class="gpgc-action gpgc-centered-text">
+    <button class="gpgc-large-secondary-button" id="show_comments_button" onclick="showAllComments(CommentsArray)"></button>
+  </span>
+</div>
+
+<div class="gpgc-comment gpgc-comments-font gpgc-color-theme" id="gpgc_new_comment">
+  <div class="gpgc-comment-header">
+    <a id="gpgc_reader_url" href=""><img class="gpgc-avatar" id="gpgc_reader_avatar" src="" height="42" /><span id="gpgc_reader_login">شما</span></a>
+    <small>امروز</small>
+    <div class="gpgc-tabs">
+      <button class="gpgc-tab gpgc-text-button" id="write_button">نوشتن</button>
+      <button class="gpgc-tab gpgc-text-button" id="preview_button">پیش‌نمایش</button>
+    </div>
+  </div>
+  <div class="gpgc-new-comment" id="write_div">
+    <div class="gpgc-new-comment-form">
+      <textarea class="gpgc-new-comment-form-textarea" id="new_comment_field" placeholder="نظر خود را اینجا بنویسید"></textarea>
+    </div>
+  </div>
+  <div class="gpgc-new-comment gpgc-comment-contents gpgc-hidden" id="preview_div">
+  </div>
+  <div class="gpgc-hidden gpgc-comment-help" id="help_message">
+  </div>
+  <div class="gpgc-new-comment-actions">
+    <button class="gpgc-normal-primary-button gpgc-text-button" id="login_button" onclick="loginToGitHub()"><strong>وارد گیت‌هاب شوید</strong></button>
+    <button class="gpgc-normal-primary-button gpgc-text-button gpgc-hidden" id="submit_button" onclick="postComment()"><strong>ثبت</strong></button>
+  </div>
+</div>
+
+<div class="gpgc-new-section gpgc-comments-font gpgc-hidden" id="gpgc_disabled">
+  <p class="gpgc-centered-text">امکان نظردهی بسته شد</p>
+</div>
+
+<div class="gpgc-new-section gpgc-comments-font gpgc-help-error gpgc-hidden" id="gpgc_reader_error">
+</div>
+
+<div class="gpgc_last_div">
+</div>
+
+<script type="text/javascript" src="/public/js/gpgc_core.js"></script>
+
+<script>
+  window.addEventListener("error", onError);
+  function onError(error) {
+    var errorMessage = "<h3><strong>gpgc</strong> Error: Global Exception</h3>";
+    errorMessage += "<p><dl><dt>Error</dt><dd>" + error.message + "</dd><dt>URL</dt><dd>" + error.filename + "</dd><dt>Line</dt><dd>" + error.lineno + "</dd><dt>Column</dt><dd>" + error.colno + "</dd></dl></p>"
+    showGeneralHelp(errorMessage);
+  }
+</script>
+
+<script>
+  var gpgc = {
+    new_comments_disabled: new Boolean(false).valueOf() || new Boolean().valueOf(),
+    site_url: "http://localhost:4000",
+    page_path: "_posts/2018-04-06-artemis-dvb-t-digital-tuner-setup-debian-linux.md",
+    issue_title: "نصب گیرنده دیجیتال بر روی دبیان لینوکس",
+    repo_id: "migim/migim.github.io",
+    use_show_action: false,
+    github_application_client_id: "917f9a59de9bb6fdeb97",
+    github_application_code_authenticator_url: "http://neomigim.herokuapp.com/authenticate/",
+    github_application_login_redirect_url: "http://migim.ir/public/html/gpgc_redirect.html",
+    enable_diagnostics: false,
+  };
+
+  gpgc_main();
+</script>
+
+
+		</div>
+	</div>
+</div>
+</div>
+
+	</body>
+	<footer id="footer">
+		<div class="container">
+	<div class="row">
+		<a target="_blank" href="https://github.com/mimr9">
+			<section class="two columns" >
+				<i class="fa fa-github"></i>
+				<br>
+				<span>گیت‌هاب</span>
+			</section>
+		</a>
+		<a target="_blank" href="https://www.linkedin.com/in/mohammadreza-moghimi/">
+			<section class="two columns" >
+				<i class="fa fa-linkedin"></i>
+				<br>
+				<span>لینکدین</span>
+			</section>
+		</a>
+		<a target="_blank" href="mailto:mimr.moghimi@gmail.com">
+			<section class="two columns" >
+				<i class="fa fa-envelope"></i>
+				<br>
+				<span>ایمیل</span>
+			</section>
+		</a>
+		<a target="_blank" href="https://Zarinp.al/171403">
+			<section class="two columns" >
+				<i class="fa fa-credit-card"></i>
+				<br>
+				<span>حمایت</span>
+			</section>
+		</a>
+		<a target="_blank" href="https://jobinja.ir/user/mimr9">
+			<section class="two columns" >
+				<i class="fa fa-address-book"></i>
+				<br>
+				<span>رزومه</span>
+			</section>
+		</a>
+		<a target="_blank" href="http://yourshot.nationalgeographic.com/profile/1501852/">
+			<section class="two columns" >
+				<i class="fa fa-camera"></i>
+				<br>
+				<span>عکس‌ها</span>
+			</section>
+		</a>
+	</div>
+</div>
+
+<section id="second">
+	<div class="feet">
+		<span>ساخته‌ای برآمده از <i class="fa fa-heart"></i> به کمک <a target="_blank" href="http://github.com">Github</a> و <a target="_blank" href="http://jekyllrb.com">Jekyll</a></span>
+	</div>
+	<div class="fet">
+		<p><a target="_blank" href="https://www.gnu.org/copyleft/fdl.html"><img src="../assets/img/GFDL_Logo.svg" ></a> مطالب این وبلاگ تحت مجوز مستندات آزاد گنو منتشر می‌شود</p>
+	</div>	
+</section>
+
+	</footer>
+
+</html>
+

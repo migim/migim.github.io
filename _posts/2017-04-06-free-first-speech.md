@@ -1,22 +1,28 @@
 ---
-layout: post 
 title: برای آزادی بیان و عقیده
-cover: /img/feel-the-sun.jpg
-feel: '84290c'
-feel-down: 'D05800'
-feel-icon: 'D05800'
-feel-icon-back: 'eee'
-feet: '84290c'
+layout: post
+cover: "/img/feel-the-sun.jpg"
+feel: 84290c
+feel-down: D05800
+feel-icon: D05800
+feel-icon-back: eee
+feet: 84290c
 published: true
-categories: [personal, photo, programming, linux, design]
-tags: [بازی, دررفتن ]
+categories:
+- personal
+- photo
+- programming
+- linux
+- design
+tags:
+- بازی
+- دررفتن
 ---
 
 به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم
 . اگر فکر می کنین چیزی دارین و یا کاری می تونین بکنین که می تونه دنیای خودتون رو عوض کنه ... پس شروع کنین. شک نکنین که می تونین همه چی رو تغییر بدین و زندگی رو از نو بسازین ... ترس رو کنار بذارین و دنیای جدید رو تنفس کنین
  
 
-![first post image](/img/IMG_2355.jpg)
 
 ### چرا میگیم؟
 

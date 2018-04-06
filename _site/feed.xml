@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fa_IR"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fa_IR" /><updated>2018-04-02T03:40:45+04:30</updated><id>http://localhost:4000/</id><title type="html">میگیم</title><subtitle>از دیدگاهی شاید متفاوت</subtitle><author><name>محمدرضا مقیمی</name></author><entry><title type="html">تصاویر بهار ۹۷ طبیعت مازندران، سوادکوه</title><link href="http://localhost:4000/spring-2018-mazandaran-savadkooh-bayekola-photo.html" rel="alternate" type="text/html" title="تصاویر بهار ۹۷ طبیعت مازندران، سوادکوه" /><published>2018-04-02T00:00:00+04:30</published><updated>2018-04-02T00:00:00+04:30</updated><id>http://localhost:4000/spring-2018-mazandaran-savadkooh-bayekola-photo</id><content type="html" xml:base="http://localhost:4000/spring-2018-mazandaran-savadkooh-bayekola-photo.html">&lt;p&gt;بعد حدود ۵ ماه تصمیم گرفتم که وبلاگ‌نویسی رو اینجا توی میگیم ادامه بدم و خب اگه بلاگ رو گشته باشین، احتمالا می‌دونین که من اهل مازندران هستم و عاشق طبیعت و درخت‌ها و جنگل، و هر موقع که احساس دلتنگی برای طبیعت کرده باشم و نیاز به آرامش و تفریح و زندگی داشته باشم … تنها چند قدم با من فاصله دارن.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fa_IR"><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="fa_IR" /><updated>2018-04-06T19:24:25+04:30</updated><id>http://localhost:4000/</id><title type="html">میگیم</title><subtitle>از دیدگاهی شاید متفاوت</subtitle><author><name>محمدرضا مقیمی</name></author><entry><title type="html">نصب گیرنده دیجیتال بر روی دبیان لینوکس</title><link href="http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux.html" rel="alternate" type="text/html" title="نصب گیرنده دیجیتال بر روی دبیان لینوکس" /><published>2018-04-06T00:00:00+04:30</published><updated>2018-04-06T00:00:00+04:30</updated><id>http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux</id><content type="html" xml:base="http://localhost:4000/artemis-dvb-t-digital-tuner-setup-debian-linux.html">&lt;p&gt;مدت‌ها بود که دنبال یک گیرنده دیجیتال بودم تا بتوانم بر روی دبیان تلویزیون نگاه کنم و برنامه‌های جالب شبکه مستند را ضبط کنم. با کلی جستجو در گوگل و فروشگاه‌های آنلاین برای کسب اطلاعات و خرید یک گیرنده دیجیتال بالاخره موفق به خرید از دیجیکالا نشدم و این محصول حالا به هر دلیلی تا زمان خرید بنده عرضه نشد، تا این که در حین گردش در بازار کامپیوتر و قطعات سخت‌افزاری موفق به خرید یک گیرنده دیجیتال یا &lt;a href=&quot;https://en.wikipedia.org/wiki/DVB-T&quot;&gt;(DVB-T)&lt;/a&gt;، محصول شرکت آرتمیس شدم:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-usbStick.JPG&quot; alt=&quot;گیرنده دیجیتال آرتمیس artemis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;در مدتی که در حال جستجو و مطالعه درباره‌ی گیرنده‌های دیجیتال و نصب آن‌ها بودم، اطلاعات خوب و مفیدی از نحوه نصب این دستگاه‌ها به دست آورده بودم اما با این حال هر دستگاه معمولا فرم‌ورهای و درایور خاص خود را پشتیبانی می‌کنند و به همین دلیل به نظرم آمد که کارم سخت شده، با این حال این گیرنده همراه خود سی‌دی درایور‌ها و ابزارهای خود را در بسته‌بندی داشت و معمولا شرکت‌ها از ویندوز به عنوان محبوب‌ترین سیستم‌عامل پشتیبانی می‌کنند اما در کمال تعجب دیدم که دایرکتوری لینوکس در محتویات این سی‌دی وجود داشت که در آن کد منبع درایور و همینطور فرم‌ور این گیرنده وجود داشت و نیاز به کامپایل داشت:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-disk.JPG&quot; alt=&quot;سی‌دی گیرنده دیجیتال آرتمیس artemis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;اما نگران نباشید، نام سخت‌افزار این گیرنده &lt;a href=&quot;https://www.linuxtv.org/wiki/index.php/ITE_IT9135&quot;&gt;ITE9135 &lt;/a&gt; می‌باشد و فرم‌ور مورد نیاز آن در بسته‌ی &lt;a href=&quot;https://packages.debian.org/jessie-backports/firmware-misc-nonfree&quot;&gt;firmware-misc-nonfree &lt;/a&gt; می‌باشد که با اجرای دستور زیر می‌توانید آن را نصب کنید :&lt;/p&gt;
+
+&lt;p&gt;&lt;code style=&quot;display: block; direction: ltr&quot;&gt;
+sudo apt install firmware-misc-nonfree
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;و همانطور که می‌بینید، این بسته جزوی از مخزن غیر آزاد یا nonfree در مخازن دبیان است و شما می‌بایست در فایل &lt;span dir=&quot;ltr&quot;&gt;/etc/source.list&lt;/span&gt; خود این &lt;a href=&quot;https://wiki.debian.org/SourcesList&quot;&gt;کامپوننت&lt;/a&gt;  را اضافه کنید و
+پس از نصب سیستم خود را برای بارگذاری فرم‌ورها ری‌استارت کنید.&lt;/p&gt;
+
+&lt;p&gt;در کنار دستگاه گیرنده، محتوایت دیگر از جمله آنتن همراه و کنترل از راه دور که در عکس نیست و به همراه یک مبدل سیم &lt;a href=&quot;https://fa.wikipedia.org/wiki/%DA%A9%D8%A7%D8%A8%D9%84_%DA%A9%D9%88%D8%A7%DA%A9%D8%B3%DB%8C%D8%A7%D9%84&quot;&gt;کواکسیال&lt;/a&gt; وجود داشت:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-assets.JPG&quot; alt=&quot;ابزار و محتویات همراه گیرنده دیجیتال آرتمیس artemis&quot; /&gt;
+&lt;img src=&quot;../assets/img/post/dvb-usb.JPG&quot; alt=&quot;مبدل کواکسیال گیرنده دیجیتال آرتمیس artemis&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;در تهران یا شهرهایی چون مشهد شاید، اما در مازندران نمی‌شود از آنتن کوچک همراه دستگاه استفاده کرد چرا که سیگنال آنتن‌های فرستنده آنچنان قدرتمند نیست و به همین دلیل آنتنی هوایی باید خرید و من هم آنتن سیماران را انتخاب کردم چرا که ابزارهای مورد نیاز از جمله بوستر تقویت کننده سیگنال را هم به همراه داشت:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-antenna.jpg&quot; alt=&quot;آنتن هوایی سیماران simaran antenna&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;پس از نصب آنتن هوایی و اتصال سیم‌ها به بوستر و نصب فیش سیم کواکسیال به مبدل گیرنده دیجیتال، کارهای سخت‌افزاری‌ام به پایان رسید. حال برای تایید درستی کارکرد گیرنده دیجیتال و قبل از اتصال usb به پورت سیستم خود می‌توانید با اجرای دستور زیر از اتصال موفقیت آمیز گیرنده و شناسایی آن توسط دستگاه مطمئن شوید:&lt;/p&gt;
+
+&lt;p&gt;&lt;code style=&quot;display: block; direction: ltr&quot;&gt;
+sudo tail -f /var/log/syslog
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;حال با اتصال گیرنده به پورت usb، متوجه پیامی در خروجی ترمینال خود می‌شوید:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-connect.png&quot; alt=&quot;اتصال موفق گیرنده دیجیتال به لینوکس دبیان&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;در این مرحله نیاز به نصب یک کلاینت داریم تا بتوانیم شبکه‌ها را جست‌جو کرده و لیست کانال‌های تلویزیونی را ذخیره و برنامه‌ها را مشاهده کنیم. برای جستجو یا لیست کردن ابزار‌های تحت ترمینال وجود دارد و همینطور برنامه‌های گرافیکی مختلف اما انتخاب من برنامه‌ی کافئین ( &lt;a href=&quot;https://packages.debian.org/stretch/kaffeine&quot;&gt;Kaffeine&lt;/a&gt; ) هست.
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code style=&quot;display: block; direction: ltr&quot;&gt;
+sudo apt install kaffeine
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;پس از نصب برنامه را اجرا کنید و به مسیر زیر در منوی اصلی بالای برنامه بروید:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code style=&quot;display: block; direction: ltr&quot;&gt;
+Television &amp;gt; Configure Television ... &amp;gt; Device 1
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;سپس به شکل زیر می‌توانیم تنظیم کنید:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-config-television.png&quot; alt=&quot;تنظیمات کافئین برای گیرنده دیجیتال&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;و بر روی دکمه ok کلیک کنید. حال وقت آن رسیده که برای جست‌و‌جوی کانال‌ها اقدام کنیم و باید به مسیر زیر رفت:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code style=&quot;display: block; direction: ltr&quot;&gt;
+Television &amp;gt; Channels
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-kaffeine-channels.png&quot; alt=&quot;اسکن کانال‌های کافئین برای گیرنده دیجیتال&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;حال بر روی دکمه Start Scan کلیک کنید تا کانال‌های تلویزیونی را جست‌جو کند اما در عکس بالا می‌بینید که من اسکن کردم و لیست کانال‌ها را شخصی‌سازی کرده و ذخیره کردم. حال کار ما تمام شده و با کلیک بر روی اسم کانال‌ها این شبکه‌های تلویزیونی را به صورت یک جریان زنده بر روی سیستم لینوکس خود تماشا کنید :
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/post/dvb-kaffeine.png&quot; alt=&quot;نصب گیرنده دیجیتال تلویزیون بر روی لینوکس&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;در این قسمت هم برای مطالعه و یا جست‌جوی بیشتر لینک‌های مشابه از وبلاگ‌های دیگر دوستان گیکی و ویکی‌های لینوکس قرار می‌دهم تا هم تشکری به تلاش دوستان عزیز باشد و هم کمک افزایش دانش خواننده علاقمند بلاگم:
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;مطالب مشابه دوستان گیکی:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://freegeek.ir/1393/03/setup-xvision4100-dvbt-on-gnu-linux/&quot;&gt; ده گام تا راه اندازی گیرنده دیجیتالی ایکس‌ویژن … |  گیک آزاد
+&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jalil.me/posts/8/%D8%AA%D9%85%D8%A7%D8%B4%D8%A7%DB%8C-%D8%AA%D9%84%D9%88%DB%8C%D8%B2%DB%8C%D9%88%D9%86-%D8%A8%D8%A7-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%D8%AF%D8%A7%D8%B1%D8%AF-DVB-T-%D8%AF%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3&quot;&gt;تماشای تلویزیون با استاندارد DVB-T در لینوکس&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;منابع ویکی‌های لینوکس:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.debian.org/USB-DVBT%20Stick?highlight=%28dvb%29&quot;&gt;ویکی دبیان&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.gentoo.org/wiki/TV_Tuner&quot;&gt;ویکی جنتو&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/DVB-T&quot;&gt;ویکی آرچ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;در پایان هم خیلی علاقه‌مند هستم تا نظرات و بازخوردهای شما خواننده‌های را در مورد این مطلب و چه اصلاح یا چه در مورد کمکی که بهتون در حل مشکلی کرد بدانم پس از این به بعد را شما شروع کنین:&lt;/p&gt;</content><author><name>محمدرضا مقیمی</name></author><summary type="html">مدت‌ها بود که دنبال یک گیرنده دیجیتال بودم تا بتوانم بر روی دبیان تلویزیون نگاه کنم و برنامه‌های جالب شبکه مستند را ضبط کنم. با کلی جستجو در گوگل و فروشگاه‌های آنلاین برای کسب اطلاعات و خرید یک گیرنده دیجیتال بالاخره موفق به خرید از دیجیکالا نشدم و این محصول حالا به هر دلیلی تا زمان خرید بنده عرضه نشد، تا این که در حین گردش در بازار کامپیوتر و قطعات سخت‌افزاری موفق به خرید یک گیرنده دیجیتال یا (DVB-T)، محصول شرکت آرتمیس شدم:</summary></entry><entry><title type="html">تصاویر بهار ۹۷ طبیعت مازندران، سوادکوه</title><link href="http://localhost:4000/spring-2018-mazandaran-savadkooh-bayekola-photo.html" rel="alternate" type="text/html" title="تصاویر بهار ۹۷ طبیعت مازندران، سوادکوه" /><published>2018-04-02T00:00:00+04:30</published><updated>2018-04-02T00:00:00+04:30</updated><id>http://localhost:4000/spring-2018-mazandaran-savadkooh-bayekola-photo</id><content type="html" xml:base="http://localhost:4000/spring-2018-mazandaran-savadkooh-bayekola-photo.html">&lt;p&gt;بعد حدود ۵ ماه تصمیم گرفتم که وبلاگ‌نویسی رو اینجا توی میگیم ادامه بدم و خب اگه بلاگ رو گشته باشین، احتمالا می‌دونین که من اهل مازندران هستم و عاشق طبیعت و درخت‌ها و جنگل، و هر موقع که احساس دلتنگی برای طبیعت کرده باشم و نیاز به آرامش و تفریح و زندگی داشته باشم … تنها چند قدم با من فاصله دارن.
 &lt;br /&gt;
 	 در فصل بهار هستیم و سوژه برای عکاسی هم فراوان، پس دست به کار شدم و چند عکس از ییلاق آبا و  اجدادی‌ام بایع‌کلأ، از نمادهای زیبای بهار یعنی شکوفه‌ها و گل‌ها عکس گرفتم: 
 &lt;br /&gt;&lt;/p&gt;
@@ -69,8 +163,6 @@
 &lt;h2 id=&quot;نتیجهگیری&quot;&gt;نتیجه‌گیری&lt;/h2&gt;
 &lt;p&gt;به هر صورت موارد قابل بیان و فنی بسیار هست و دانش بنده هم در حدودای چنین است که عرض کردم  و از دیدگاه یک کاربر محصولات متن‌باز به این نتیجه رسیدم که یونیتی با این محبوبیت کم و طراحی ضعیف از منظر کاربرد، تنها هزینه‌بر و فرسایشی ادامه پیدا می‌کرد و این تصمیم شرکت کنونیکال نشان‌دهنده حرفه‌ای بودن این افراد است تا بتونیم با تمرکز برای یک میزکار فوق‌العاده و توسعه هر چه بهتر اون، دنیای آزاد بهتری رو تجربه کنیم.&lt;/p&gt;</content><author><name>محمدرضا مقیمی</name></author><summary type="html">به تازگی یعنی حدودا دو روز پیش خبر خاتمه دادن توسعه برنامه محیط میزکار یونیتی، از طرف تیم توسعه اوبونتو اعلام شد و خب از اونجایی که اوبونتو از اون توزیع‌های خوب و کامل لینوکس هست و بسیار هم محبوب و کاربردی هست، خیلی داغ شد.</summary></entry><entry><title type="html">برای آزادی بیان و عقیده</title><link href="http://localhost:4000/free-first-speech.html" rel="alternate" type="text/html" title="برای آزادی بیان و عقیده" /><published>2017-04-06T00:00:00+04:30</published><updated>2017-04-06T00:00:00+04:30</updated><id>http://localhost:4000/free-first-speech</id><content type="html" xml:base="http://localhost:4000/free-first-speech.html">&lt;p&gt;به عنوان اولین پست این وبلاگ بعد حدودا کمتر از دو سال حرف‌های زیادی میشه زد، با این وجود می‌خوام اول از اسم گذاری این وبسایت شروع کنم
 . اگر فکر می کنین چیزی دارین و یا کاری می تونین بکنین که می تونه دنیای خودتون رو عوض کنه … پس شروع کنین. شک نکنین که می تونین همه چی رو تغییر بدین و زندگی رو از نو بسازین … ترس رو کنار بذارین و دنیای جدید رو تنفس کنین&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/IMG_2355.jpg&quot; alt=&quot;first post image&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;چرا-میگیم&quot;&gt;چرا میگیم؟&lt;/h3&gt;
 
