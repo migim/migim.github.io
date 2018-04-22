@@ -1,16 +1,15 @@
 ---
-
-layout: page
 title: تماس با من
-date: 2017-10-29    
-cover: /assets/img/contact-me.jpg
+layout: page
+date: '2017-10-29'
+cover: "/assets/img/contact-me.jpg"
 feel: '051400'
-feel-down: '263926'
-feel-icon: '263926'
-feel-icon-back: 'eee'
+feel-down: 263926
+feel-icon: 263926
+feel-icon-back: eee
 feet: '051400'
-
 ---
+
 راه‌های تماس با من بسیار زیاد هست. هر کدوم رو که می‌پسندین انتخاب کنین. حالا قصدتون هر چی که هست:
 <br />
 <br />
@@ -38,7 +37,7 @@ feet: '051400'
 هر جور که راحتین می‌تونین یکی از روش‌های زیر رو برای ارتباط با من استفاده کنین:
 <br /><br />
 <i class="fa fa-envelope"></i>
- به من ایمیل بزنید:
+برای من ایمیل بفرستین:
 <h4 style="text-align: center; font-family: Gandom, sans-serif;"><a href="mailto:mimr.moghimi@gmail.com?subject=تماس با محمدرضا مقیمی" style="text-decoration: none; color: white; background-color: #24243e; padding: 10px; border-radius: 4px; " target="_blank" > mimr.moghimi@gmail.com</a></h4>
 <br />
 
