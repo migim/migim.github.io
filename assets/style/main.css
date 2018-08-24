@@ -484,10 +484,6 @@ footer .row span {
 		display: none;
 	}
 	
-	code {
-		white-space: none;
-	}
-
 }
 
 @media only screen and ( max-width: 307px ) {
