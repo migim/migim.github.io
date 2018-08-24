@@ -483,6 +483,10 @@ footer .row span {
 	#cover #site-discription {
 		display: none;
 	}
+	
+	.code {
+		white-space: none;
+	}
 
 }
 
@@ -505,4 +509,5 @@ footer .row span {
 	.category-item a i {
 		display: none;	
 	}
+	
 }
