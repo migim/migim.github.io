@@ -483,7 +483,7 @@ footer .row span {
 	#cover #site-discription {
 		display: none;
 	}
-
+	
 }
 
 @media only screen and ( max-width: 307px ) {
@@ -505,4 +505,5 @@ footer .row span {
 	.category-item a i {
 		display: none;	
 	}
+	
 }
