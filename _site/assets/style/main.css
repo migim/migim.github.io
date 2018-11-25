@@ -414,6 +414,46 @@ footer .row span {
 	text-align: center;
 }
 
+.text-right {
+	text-align: right;
+}
+
+.comment {
+	display: inline-block;
+}
+
+.commenter {
+	font-family: Gandom, sans-serif;
+}
+
+.commentom label {
+	display: inline-block;
+       	width: 140px;
+       	text-align: right;
+}
+
+.errorM {
+	color: red;
+}
+
+.post-comment-counter {
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.post-comment-counter h3 {
+    box-sizing: border-box;
+    border-top: 5px solid #59B4FF;
+    border-right: 5px solid #007F98;
+    border-left: 5px solid #007F98;
+    border-bottom: 5px solid #59B4FF;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    text-align: center;
+    font-family: Lalezar, yekan, serif;
+    color: white;
+    border-radius: 10px;
+}
+
 @media only screen and ( max-width: 1077px ) {
 	#second {
 		margin-right: 5px;

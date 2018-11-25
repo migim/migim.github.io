@@ -149,14 +149,37 @@
     	</div>
 	<div class="row">
 		<br>
-		<form class="text-center" method="POST" name="comment" netlify>
-			<label>ایمیل:</label> 
-			<input type="text" name="name" />
-			<label>نظر:</label> 
-			<textarea name="message"></textarea>
-			<div data-netlify-recaptcha></div>
-			<button type=”submit”>Send</button>
-		</form>
+		<div class="six columns">
+			<div class="post-comment-counter">
+				<h3>دیدگاه‌ها</h3>
+			</div>
+		</div>
+		<div class="five columns">
+			<div class="commenter">
+				<form class="text-right" method="POST" name="comment" netlify>
+					<div class="commentom">
+						<label class="comment">نام<div class="errorM comment">*</div></label> 
+						<input class="comment" type="text" required name="name" />
+					</div>
+					<div class="commentom">
+						<label class="comment">ایمیل<div class="errorM comment">*</div></label> 
+						<input class="comment" type="text" required name="email" />
+					</div>
+					<div class="commentom">
+						<label class="comment">وبسایت</label> 
+						<input class="comment" type="text" name="site" />
+					</div>
+					<br>
+					<div class="commentom">
+						<label>دیدگاه<div class="errorM comment">*</div></label><span>می‌توانید از </span><a target="_blank" href="https://commonmark.org/help/">مارک‌داون</a><span> استفاده کنید.</span>
+						<textarea style="width: 100%; height: 200px;" required name="message"></textarea>
+					</div>
+
+					<div data-netlify-recaptcha></div>
+					<button type=”submit”>ارسال</button>
+				</form>
+			</div>
+		</div>
 	</div>
 </div>
 <br>
