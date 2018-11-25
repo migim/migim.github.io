@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://ecstatic-spence-520932.netlify.com/* http://migim.ir/:splat 301!
