@@ -16,7 +16,6 @@
 <link rel="stylesheet" type="text/css" href="/assets/style/skeleton.css">
 <link rel="stylesheet" type="text/css" href="/assets/style/main.css">
 <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="/public/css/gpgc_styles.css">
   
 <link rel="shortcut icon" href="/assets/img/favicon.ico" >
 
@@ -146,6 +145,17 @@
 			</div>
 		</div>
     	</div>
+	<div class="row">
+		<br>
+		<form class="text-center" method="POST" name="comment" netlify>
+			<label>ایمیل:</label> 
+			<input type="text" name="name" />
+			<label>نظر:</label> 
+			<textarea name="message"></textarea>
+			<div data-netlify-recaptcha></div>
+			<button type=”submit”>Send</button>
+		</form>
+	</div>
 </div>
 <br>
 </div>
